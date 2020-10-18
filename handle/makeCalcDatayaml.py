@@ -6,8 +6,8 @@ class MakeCalcdata:
 
         list = [[0,0]]
         for i in range(1,10):
-            intdata = random.uniform(0,10000000)
-            mintdata = random.uniform(-1000000000,0)
+            intdata = random.randint(0,10000000)
+            mintdata = random.randint(-1000000000,0)
             floatdata = random.uniform(0,1000000000)
             minusfloatdata = random.uniform(-10000000,0)
             chardata = random.choice("abcdefghijklmnopqrstuvwxyz!@#$%^&*()")
