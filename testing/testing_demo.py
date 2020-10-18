@@ -14,3 +14,6 @@ class Calculator:
 
     def div(self, a, b):
         return a / b
+
+    def add1(self, a, b):
+        return a + b

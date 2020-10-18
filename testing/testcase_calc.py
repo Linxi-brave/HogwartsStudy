@@ -5,12 +5,39 @@ import yaml
 
 
 def get_datas():
+    '''
+    :return: 解析测试数据的函数，从yaml文件中读取测试数据
+    '''
     with open("../testdata/calc.yaml",encoding='utf-8') as f:
         datas = yaml.safe_load(f)
         adds_data = datas['add']['datas']
         adds_id = datas['add']["ids"]
 
         return [adds_data,adds_id]
+
+def steps(calc,a,b,expect,stepfile):
+    '''
+    :param calc:
+    :param a: add 函数中的一个加法参数
+    :param b: add 函数中的一个加法参数
+    :param expect: add 函数中的预期结果
+    :param stepfile: 传入存有测试步骤的yaml文件路径
+    :return: 解析测试步骤的函数，从yaml文件中读取测试步骤
+    '''
+
+    with open(stepfile) as f:
+        steps = yaml.safe_load(f)
+
+        for step in steps:
+            if 'add' == step:
+                result = calc.add(a,b)
+                print("执行 add")
+            elif 'add1' == step :
+                result = calc.add1(a,b)
+                print("执行 add1")
+            assert  expect == result
+
+
 class TestCalc:
 
     def setup_module(self):
@@ -87,3 +114,6 @@ class TestCalc:
         result = self.calc.add(a,b)
         assert result == expec
 
+    @pytest.mark.parametrize('a,b,expect',get_datas()[0],ids = get_datas()[1])
+    def test_add_step(self,a,b,expect):
+        steps(self.calc,a,b,expect,'./steps/add_steps.yaml')
