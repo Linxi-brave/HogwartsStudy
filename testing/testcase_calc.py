@@ -2,9 +2,10 @@ import pytest
 import yaml
 
 
-def get_data(method):
-
-    with open("../testdata/calc.yaml",encoding="utf-8") as f:
+def get_data(method,env ='test'):
+    if env == 'test':
+        file = '../testdata/calc.yaml'
+    with open(file,encoding="utf-8") as f:
         datas = yaml.safe_load(f)
         if method == 'add':
             adds_data = datas['add']['datas']
@@ -29,6 +30,7 @@ class TestCalc:
     @pytest.mark.run(order = 1)
     def testcase_add(self,get_calc,a,b,expect):
         result = get_calc.add(a,b)
+        pytest.assume(result == expect)
         assert result == expect
 
     @pytest.mark.parametrize('a,b,expect',get_data('sub')[0],ids = get_data('sub'[1]))
