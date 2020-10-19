@@ -5,6 +5,7 @@ import yaml
 def get_data(method,env ='test'):
     if env == 'test':
         file = '../testdata/calc.yaml'
+        # file = test_datafile
     with open(file,encoding="utf-8") as f:
         datas = yaml.safe_load(f)
         if method == 'add':
@@ -23,6 +24,8 @@ def get_data(method,env ='test'):
             div_data = datas['div']['data']
             div_id = datas['div']['ids']
             return [div_data,div_id]
+        else:
+            print("不存在的运算方式")
 
 
 class TestCalc:
@@ -30,6 +33,7 @@ class TestCalc:
     @pytest.mark.run(order = 1)
     def testcase_add(self,get_calc,a,b,expect):
         result = get_calc.add(a,b)
+        # 使用多重校验 pytest.assume(true)
         pytest.assume(result == expect)
         assert result == expect
 
