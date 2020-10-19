@@ -31,7 +31,7 @@ def get_data(method,env ='test'):
 class TestCalc:
     @pytest.mark.parametrize('a,b,expect',get_data('add')[0],ids = get_data('add')[1])
     @pytest.mark.run(order = 1)
-    def testcase_add(self,get_calc,a,b,expect):
+    def testcase_add(self,get_calc,a,b,expect,get_log):
         result = get_calc.add(a,b)
         # 使用多重校验 pytest.assume(true)
         pytest.assume(result == expect)

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1930577c-a520-4bcd-9ce9-018e4cdcfcc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-mypractice/test_selenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/user_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/makeCalcDatayaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/makeCalcDatayaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-mypractice/testcase_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing-mypractice/testcase_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/testcase_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/testcase_calc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,22 +28,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="3" />
-          <entry key="py" value="19" />
-          <entry key="yaml" value="6" />
+          <entry key="log" value="3" />
+          <entry key="py" value="33" />
+          <entry key="yaml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="3" />
-          <entry key="Python" value="19" />
-          <entry key="YAML" value="6" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="33" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="ini" value="89" />
-          <entry key="py" value="4290" />
+          <entry key="py" value="5196" />
           <entry key="yaml" value="322" />
         </counts>
       </usages-collector>
@@ -45,55 +53,33 @@
         <counts>
           <entry key="Ini" value="89" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4290" />
+          <entry key="Python" value="5196" />
           <entry key="YAML" value="322" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4140845">
+    <splitter split-orientation="horizontal" split-proportion="0.573201">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testing/conftest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+                <state relative-caret-position="298">
+                  <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
-                    <marker date="1603078687924" expanded="true" signature="146:151" ph="..." />
-                    <marker date="1603078687924" expanded="true" signature="181:186" ph="..." />
-                    <marker date="1603078687924" expanded="true" signature="246:251" ph="..." />
+                    <marker date="1603098010195" expanded="true" signature="146:151" ph="..." />
+                    <marker date="1603098010195" expanded="true" signature="181:186" ph="..." />
+                    <marker date="1603098010195" expanded="true" signature="202:204" ph="..." />
+                    <marker date="1603098010195" expanded="true" signature="245:250" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testdata/calc.yaml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing-mypractice/test_allure.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-127">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                  <folding>
-                    <element signature="e#1#14#0" expanded="true" />
-                    <marker date="1603003581141" expanded="true" signature="100:101" ph="..." />
-                    <marker date="1603003581141" expanded="true" signature="100:155" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/testing-mypractice/test_fixture.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
@@ -105,8 +91,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testing-mypractice/testcase_calc.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2227">
-                  <caret line="131" selection-start-line="131" selection-end-line="131" />
+                <state relative-caret-position="258">
+                  <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -115,10 +101,84 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pythoncode/testing_demo.py">
+            <entry file="file://$PROJECT_DIR$/testing-mypractice/test_allure.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="12" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="12" />
+                <state relative-caret-position="191">
+                  <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#1#14#0" expanded="true" />
+                    <marker date="1603003581141" expanded="true" signature="100:101" ph="..." />
+                    <marker date="1603003581141" expanded="true" signature="100:155" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testing-mypractice/steps/add_steps.yaml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/util/user_log.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="183">
+                  <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#14#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/makeCalcDatayaml.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testing-mypractice/test_selenium.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="169">
+                  <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                  <folding>
+                    <element signature="e#98#120#0" expanded="true" />
+                    <marker date="1603099425333" expanded="true" signature="794:799" ph="..." />
+                    <marker date="1603099425333" expanded="true" signature="952:958" ph="..." />
+                    <marker date="1603099425333" expanded="true" signature="1137:1203" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="235">
+                  <caret line="309" column="30" lean-forward="true" selection-start-line="309" selection-start-column="30" selection-end-line="309" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#788#799#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -130,12 +190,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/testing/testcase_calc.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                <state relative-caret-position="563">
+                  <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
-                    <marker date="1603089208819" expanded="true" signature="886:888" ph="..." />
-                    <marker date="1603089208819" expanded="true" signature="903:908" ph="..." />
+                    <marker date="1603098010197" expanded="true" signature="886:888" ph="..." />
+                    <marker date="1603098010197" expanded="true" signature="903:908" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -179,13 +239,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wait</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/handle/makeCalcDatayaml.py" />
         <option value="$PROJECT_DIR$/testing/test_allure.py" />
         <option value="$PROJECT_DIR$/testing/test_param.py" />
         <option value="$PROJECT_DIR$/testing/steps/add_steps.yaml" />
@@ -193,16 +257,20 @@
         <option value="$PROJECT_DIR$/testing/test_fixture.py" />
         <option value="$PROJECT_DIR$/testing/testcase_calc1019.py" />
         <option value="$PROJECT_DIR$/testdata/calc.yaml" />
-        <option value="$PROJECT_DIR$/testing/conftest.py" />
         <option value="$PROJECT_DIR$/config/pytest.ini" />
+        <option value="$PROJECT_DIR$/handle/makeCalcDatayaml.py" />
         <option value="$PROJECT_DIR$/testing/testcase_calc.py" />
+        <option value="$PROJECT_DIR$/testing/conftest.py" />
+        <option value="$PROJECT_DIR$/util/makeCalcDatayaml.py" />
+        <option value="$PROJECT_DIR$/web/test_selenium.py" />
+        <option value="$PROJECT_DIR$/util/user_log.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="70" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -220,35 +288,31 @@
             <path>
               <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="pythoncode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="testing-mypractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="testing-mypractice" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -260,7 +324,7 @@
               <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.7 (1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="python-skeletons" type="51189727:PyUserSkeletonsNode" />
             </path>
           </expand>
           <select />
@@ -274,11 +338,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing-mypractice" />
+      <recent name="$PROJECT_DIR$/util" />
       <recent name="$PROJECT_DIR$/testing" />
       <recent name="$PROJECT_DIR$/pythoncode" />
       <recent name="$PROJECT_DIR$/config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/util" />
       <recent name="$PROJECT_DIR$/testing" />
     </key>
   </component>
@@ -295,6 +362,42 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest for testcase_calc.TestCalc.testcase_add">
+    <configuration name="user_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HogwartsStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/user_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_selenium.TestSelenium.test_sleep" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HogwartsStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_selenium.TestSelenium.test_sleep&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for testcase_calc.TestCalc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HogwartsStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,21 +428,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for testcase_calc.TestCalc.testcase_div" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="HogwartsStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase_calc.TestCalc.testcase_div&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for testcase_calc.TestCalc.testcase_divzero" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HogwartsStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,35 +443,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for testcase_calc.TestCalc.testcase_mul" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="HogwartsStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase_calc.TestCalc.testcase_mul&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_add" />
       <item itemvalue="Python tests.pytest for testcase_calc.TestCalc" />
-      <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_mul" />
-      <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_div" />
       <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_divzero" />
+      <item itemvalue="Python.user_log" />
+      <item itemvalue="Python tests.pytest for test_selenium.TestSelenium.test_sleep" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_add" />
+        <item itemvalue="Python tests.pytest for test_selenium.TestSelenium.test_sleep" />
+        <item itemvalue="Python.user_log" />
         <item itemvalue="Python tests.pytest for testcase_calc.TestCalc" />
         <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_divzero" />
-        <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_div" />
-        <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testcase_mul" />
       </list>
     </recent_temporary>
   </component>
@@ -401,24 +474,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_testcase_calc_TestCalc_testcase_div - 2020.10.19 at 11h 21m 31s.xml">
-      <configuration name="pytest for testcase_calc.TestCalc.testcase_div" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_testcase_calc_TestCalc_testcase_divzero - 2020.10.19 at 11h 22m 46s.xml">
-      <configuration name="pytest for testcase_calc.TestCalc.testcase_divzero" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_testcase_calc_TestCalc - 2020.10.19 at 11h 28m 23s.xml">
-      <configuration name="pytest for testcase_calc.TestCalc" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_testcase_calc_TestCalc - 2020.10.19 at 11h 30m 11s.xml">
-      <configuration name="pytest for testcase_calc.TestCalc" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_testcase_calc_TestCalc - 2020.10.19 at 11h 33m 26s.xml">
-      <configuration name="pytest for testcase_calc.TestCalc" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_testcase_calc_TestCalc - 2020.10.19 at 11h 43m 29s.xml">
-      <configuration name="pytest for testcase_calc.TestCalc" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_testcase_calc_TestCalc - 2020.10.19 at 11h 44m 13s.xml">
       <configuration name="pytest for testcase_calc.TestCalc" configurationId="tests" />
     </history-entry>
@@ -431,21 +486,38 @@
     <history-entry file="pytest_for_testcase_calc_TestCalc_testcase_add - 2020.10.19 at 14h 11m 22s.xml">
       <configuration name="pytest for testcase_calc.TestCalc.testcase_add" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_selenium_TestSelenium_test_sleep - 2020.10.19 at 16h 13m 29s.xml">
+      <configuration name="pytest for test_selenium.TestSelenium.test_sleep" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_selenium_TestSelenium_test_sleep - 2020.10.19 at 16h 13m 45s.xml">
+      <configuration name="pytest for test_selenium.TestSelenium.test_sleep" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_testcase_calc_TestCalc_testcase_add - 2020.10.19 at 16h 56m 44s.xml">
+      <configuration name="pytest for testcase_calc.TestCalc.testcase_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_testcase_calc_TestCalc_testcase_add - 2020.10.19 at 16h 57m 06s.xml">
+      <configuration name="pytest for testcase_calc.TestCalc.testcase_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_testcase_calc_TestCalc_testcase_add - 2020.10.19 at 16h 59m 05s.xml">
+      <configuration name="pytest for testcase_calc.TestCalc.testcase_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_testcase_calc_TestCalc_testcase_add - 2020.10.19 at 16h 59m 10s.xml">
+      <configuration name="pytest for testcase_calc.TestCalc.testcase_add" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="29" width="1440" height="814" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14799154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.27659574" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49753347" weight="0.25106382" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50317127" side_tool="true" visible="true" weight="0.27700832" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24539007" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682876" visible="true" weight="0.27700832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,16 +531,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/handle/makeCalcDatayaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing-mypractice/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -500,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing-mypractice/steps/add_steps.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.8/site-packages/yaml/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -521,33 +576,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1603078687924" expanded="true" signature="146:151" ph="..." />
-            <marker date="1603078687924" expanded="true" signature="181:186" ph="..." />
-            <marker date="1603078687924" expanded="true" signature="246:251" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing-mypractice/testcase_calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing-mypractice/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/calc.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -558,21 +604,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/calc.yaml">
+    <entry file="file:///usr/local/lib/python3.8/site-packages/pytest/collect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="629">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing-mypractice/test_allure.py">
+    <entry file="file:///usr/local/lib/python3.8/site-packages/pytest_ordering/_version.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.8/site-packages/pytest_assume/hooks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.8/site-packages/yaml/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="914" column="40" selection-start-line="914" selection-start-column="36" selection-end-line="914" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
           <folding>
-            <element signature="e#1#14#0" expanded="true" />
-            <marker date="1603003581141" expanded="true" signature="100:101" ph="..." />
-            <marker date="1603003581141" expanded="true" signature="100:155" ph="..." />
+            <element signature="e#788#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="309" column="30" lean-forward="true" selection-start-line="309" selection-start-column="30" selection-end-line="309" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1603098010195" expanded="true" signature="146:151" ph="..." />
+            <marker date="1603098010195" expanded="true" signature="181:186" ph="..." />
+            <marker date="1603098010195" expanded="true" signature="202:204" ph="..." />
+            <marker date="1603098010195" expanded="true" signature="245:250" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/logs/2020-10-19.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing-mypractice/steps/add_steps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing-mypractice/testcase_calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -584,21 +698,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/testing-mypractice/test_allure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="191">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+            <marker date="1603003581141" expanded="true" signature="100:101" ph="..." />
+            <marker date="1603003581141" expanded="true" signature="100:155" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing-mypractice/test_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#98#120#0" expanded="true" />
+            <marker date="1603099425333" expanded="true" signature="794:799" ph="..." />
+            <marker date="1603099425333" expanded="true" signature="952:958" ph="..." />
+            <marker date="1603099425333" expanded="true" signature="1137:1203" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/makeCalcDatayaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/testcase_calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="563">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1603089208819" expanded="true" signature="886:888" ph="..." />
-            <marker date="1603089208819" expanded="true" signature="903:908" ph="..." />
+            <marker date="1603098010197" expanded="true" signature="886:888" ph="..." />
+            <marker date="1603098010197" expanded="true" signature="903:908" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/user_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

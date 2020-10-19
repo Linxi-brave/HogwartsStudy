@@ -1,9 +1,12 @@
 import yaml
 import random
 class MakeCalcdata:
+    '''
+    生成Calc测试用例的测试数据，并将测试数据写入到../testdata/testyaml.yaml 中
+    '''
 
     def writeData(self):
-
+    # 写入测试数据
         list = [[0,0]]
         for i in range(1,10):
             intdata = random.randint(0,10000000)

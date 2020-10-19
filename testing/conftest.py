@@ -11,7 +11,6 @@ def get_calc():
     print("【计算结束】")
 
 
-
 def pytest_collection_modifyitems(items):
     # print("收集到的测试用例",items)
 
