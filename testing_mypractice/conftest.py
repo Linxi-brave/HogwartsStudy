@@ -1,6 +1,6 @@
 import pytest
 
-@pytest.fixture(autouse=True,scope="function",params=['tom','jerry'])
+@pytest.fixture(autouse=True,scope="function",params=['jerry'])
 def login(request):
     print("登录")
     username = request.param

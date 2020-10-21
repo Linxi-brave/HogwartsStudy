@@ -3,7 +3,8 @@ import os
 
 class SeleniumBase():
     def setup(self):
-        browser = os.getenv("browser")
+        browser = 'chrome'
+        # browser = os.getenv("browser")
         if browser == 'chrome':
             self.option = webdriver.ChromeOptions()
             self.option.add_experimental_option('w3c', False)
@@ -18,3 +19,7 @@ class SeleniumBase():
 
     def teardown(self):
         self.driver.quit()
+
+    def testcase(self):
+        self.driver.get('https://www.baidu.com')
+

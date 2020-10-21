@@ -2,6 +2,8 @@
 import logging
 import os
 import datetime
+import sys
+
 from selenium import webdriver
 
 
@@ -10,6 +12,8 @@ class UserLog:
     封装写入日志文件
     '''
     def __init__(self):
+        self.iferror = True # 标志，为True则没有出现异常
+
         self.logger1 = logging.getLogger(__name__)
         logging.Logger.manager.loggerDict.pop(__name__)
         self.logger1.handlers=[]
@@ -43,6 +47,19 @@ class UserLog:
     def close_handle(self):
         self.logger1.removeHandler(self.file_handle)
         self.file_handle.close()
+
+    def iferrorinfo(self):
+        '''
+        判断是否出现异常，返回异常信息
+        '''
+        exec_type,exec_obj,exec_tb = sys.exc_info()
+        if exec_obj == None:
+            self.iferror = True
+        else:
+            self.iferror = False
+            return exec_type,exec_obj,exec_tb
+
+
         
 
 

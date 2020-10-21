@@ -3,7 +3,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver import ActionChains, TouchActions
 from selenium.webdriver.common.keys import Keys
-
+from testing_mypractice.selenium_test.seleniumbase import SeleniumBase
 '''
 Action 
 ActionChains : 执行PC端的点击、双击、右击、拖动等操作
@@ -12,18 +12,18 @@ ActionChains : 调用的时候不会马上执行，而是放在队列中，当�
 ActionChains 只是针对PC端的操作，对H5的操作可能无用，对H5的可以使用ActionChains 
             
 '''
-class TestActionChains():
-    def setup(self):
-        self.option = webdriver.ChromeOptions()
-        self.option.add_experimental_option('w3c',False)
-
-        self.path = '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/chromedriver'
-        self.driver = webdriver.Chrome(options=self.option,executable_path=self.path)
-        self.driver.implicitly_wait(2)
-        self.driver.maximize_window()
-
-    def teardown(self):
-        self.driver.quit()
+class TestActionChains(SeleniumBase):
+    # def setup(self):
+    #     self.option = webdriver.ChromeOptions()
+    #     self.option.add_experimental_option('w3c',False)
+    #
+    #     self.path = '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/chromedriver'
+    #     self.driver = webdriver.Chrome(options=self.option,executable_path=self.path)
+    #     self.driver.implicitly_wait(2)
+    #     self.driver.maximize_window()
+    #
+    # def teardown(self):
+    #     self.driver.quit()
 
     @pytest.mark.skip
     def testcase_click(self):
@@ -43,7 +43,6 @@ class TestActionChains():
         # 光标移动到某个元素上面
         self.driver.get("https://www.baidu.com")
         ele = self.driver.find_element_by_link_text("设置")
-
         action = ActionChains(self.driver)
         action.move_to_element(ele)
         action.perform()

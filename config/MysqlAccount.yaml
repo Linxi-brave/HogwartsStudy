@@ -1,0 +1,6 @@
+
+TestEnviro:
+    host: 'mysql-server.testing.svc.cluster.local'
+    port: 3306
+    user: 'dn'
+    passwd: 'dn@2018'

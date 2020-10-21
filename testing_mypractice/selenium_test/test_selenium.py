@@ -29,16 +29,20 @@ class TestSelenium():
     def test_sleep(self):
         sleep(2)
         self.driver.implicitly_wait(2)
+        # self.driver.find_element_by_css_selector()
         # WebDriverWait(self.driver).until()
 
-    # def test_wait(self):
-    #
-    #     def wait(x):
-    #         return self.driver.find_element(Element)
-    #     WebDriverWait(self.driver).until(wait)
-    #     # # 元素可被点击
-    #     # expected_conditions.invisibility_of_element(Element)
-    #
-    #     WebDriverWait(self.driver).until(expected_conditions.invisibility_of_element(Element))
-    #
-    #
+    def test_wait(self):
+
+        def wait(x):
+            return self.driver.find_element(Element)
+        WebDriverWait(self.driver).until(wait)
+        # # 元素可被点击
+        # expected_conditions.invisibility_of_element(Element)
+
+        WebDriverWait(self.driver).until(expected_conditions.invisibility_of_element(Element))
+
+
+        self.driver.find_elements_by_link_text()
+        self.driver.find_elements_by_class_name()
+
