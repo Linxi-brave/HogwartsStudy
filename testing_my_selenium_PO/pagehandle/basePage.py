@@ -57,3 +57,48 @@ class BasePage():
 
         return yhgllistdata
 
+    def get_element_xztdbtn(self):
+        ''' 获取新增团队按钮'''
+        return self.findelement.get_element("xztdbtn")
+
+    def get_element_ssyyinput(self):
+        '''获取搜索应用输入框'''
+        return self.findelement.get_element("ssyyinput")
+
+    def get_element_xzteamkitspan(self):
+        '''获取选择Teamkit span'''
+        return self.findelement.get_element("xzteamkitspan")
+
+    def get_element_xzuserspaninput(self):
+        '''获取选择用户输入框'''
+        return self.findelement.get_element("xzuserspaninput")
+    def get_elements_xzuserspan(self):
+
+        '''获取选择用户列表'''
+        return self.findelement.get_element("xzuserspaneles")
+
+    def get_element_userspan(self,phone):
+        '''从选择用户列表中获取某个用户'''
+        # 这里如果调用封装的FindElement则无法将参数为动态获取，如果没有调用封装则没有写日志
+        # return self.findelement.get_childelement(self.get_elements_xzuserspan(),)
+        return self.get_elements_xzuserspan().find_element_by_link_text(phone)
+
+    def get_element_teamnameinput(self):
+        '''获取团队名称输入框'''
+        return self.findelement.get_element("teamnameinput")
+
+    def get_element_companyinput(self):
+        '''获取公司名称输入框'''
+
+        return self.findelement.get_element("companyinput")
+
+    def get_element_accpetbtn(self):
+        '''获取确定按钮'''
+
+        return self.findelement.get_element("acceptbtn")
+
+    def get_element_cancelbtnbtn(self):
+        '''获取取消按钮'''
+
+        return self.findelement.get_element("cancelbtn")
+

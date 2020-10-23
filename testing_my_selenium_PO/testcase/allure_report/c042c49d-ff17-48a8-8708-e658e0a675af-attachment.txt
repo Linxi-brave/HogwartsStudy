@@ -1,0 +1,7 @@
+[32mINFO    [0m util.user_log:seleniumFindelement.py:16 None
+[32mINFO    [0m util.user_log:seleniumFindelement.py:17 None
+[32mINFO    [0m util.user_log:seleniumFindelement.py:16 None
+[32mINFO    [0m util.user_log:seleniumFindelement.py:17 None
+[32mINFO    [0m util.user_log:seleniumFindelement.py:25 yhgllist
+[32mINFO    [0m util.user_log:seleniumFindelement.py:26 classnames>el-table__row
+[32mINFO    [0m util.user_log:seleniumFindelement.py:30 定位方式classnames定位值el-table__row

@@ -14,7 +14,9 @@ class SeleniumBase():
             self.driver = webdriver.firefox()
 
         self.driver.implicitly_wait(2)
-        self.driver.maximize_window()
+        # self.driver.maximize_window()
+
+
 
 
     def teardown(self):
@@ -22,4 +24,5 @@ class SeleniumBase():
 
     def testcase(self):
         self.driver.get('https://www.baidu.com')
+
 

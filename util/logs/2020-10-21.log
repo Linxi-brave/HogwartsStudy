@@ -136,3 +136,34 @@
 2020-10-21 18:26:36,215 seleniumFindelement.py--> get_element 20: INFO ----->yhgllist
 2020-10-21 18:26:36,215 seleniumFindelement.py--> get_element 20: INFO ----->classnames>el-table__row
 2020-10-21 18:26:36,215 seleniumFindelement.py--> get_element 20: INFO ----->定位方式classnames定位值el-table__row
+2020-10-21 21:07:50,015 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:07:50,015 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:07:50,017 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:07:50,017 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:07:57,645 seleniumFindelement.py--> get_element 20: INFO ----->yhgllist
+2020-10-21 21:07:57,646 seleniumFindelement.py--> get_element 20: INFO ----->classnames>el-table__row
+2020-10-21 21:07:57,646 seleniumFindelement.py--> get_element 20: INFO ----->定位方式classnames定位值el-table__row
+2020-10-21 21:08:05,619 handle_mysql.py--> connsql 20: INFO ----->(2003, "Can't connect to MySQL server on 'mysql-server.testing.svc.cluster.local' ([Errno 8] nodename nor servname provided, or not known)")
+2020-10-21 21:09:38,578 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:09:38,578 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:09:38,579 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:09:38,579 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:09:42,440 seleniumFindelement.py--> get_element 20: INFO ----->yhgllist
+2020-10-21 21:09:42,441 seleniumFindelement.py--> get_element 20: INFO ----->classnames>el-table__row
+2020-10-21 21:09:42,441 seleniumFindelement.py--> get_element 20: INFO ----->定位方式classnames定位值el-table__row
+2020-10-21 21:09:49,640 handle_mysql.py--> connsql 20: INFO ----->(2003, "Can't connect to MySQL server on 'mysql-server.testing.svc.cluster.local' ([Errno 8] nodename nor servname provided, or not known)")
+2020-10-21 21:12:23,384 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:12:23,385 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:12:23,386 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:12:23,386 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:12:28,044 seleniumFindelement.py--> get_element 20: INFO ----->yhgllist
+2020-10-21 21:12:28,044 seleniumFindelement.py--> get_element 20: INFO ----->classnames>el-table__row
+2020-10-21 21:12:28,044 seleniumFindelement.py--> get_element 20: INFO ----->定位方式classnames定位值el-table__row
+2020-10-21 21:12:35,770 handle_mysql.py--> connsql 20: INFO ----->(2003, "Can't connect to MySQL server on 'mysql-server.testing.svc.cluster.local' ([Errno 8] nodename nor servname provided, or not known)")
+2020-10-21 21:13:05,423 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:13:05,423 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:13:05,424 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:13:05,424 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-21 21:13:08,784 seleniumFindelement.py--> get_element 20: INFO ----->yhgllist
+2020-10-21 21:13:08,784 seleniumFindelement.py--> get_element 20: INFO ----->classnames>el-table__row
+2020-10-21 21:13:08,785 seleniumFindelement.py--> get_element 20: INFO ----->定位方式classnames定位值el-table__row

@@ -1,0 +1,44 @@
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+Element
+/Users/huangwenjiao/HogwartsStudy/config/Element.ini
+<configparser.ConfigParser object at 0x1119aadd8>
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+Element
+/Users/huangwenjiao/HogwartsStudy/config/Element.ini
+<configparser.ConfigParser object at 0x1119cb588>
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+Element
+yhgllist
+classnames>el-table__row
+<class 'tuple'>
+(2782, '55500001', '55500001', datetime.datetime(2020, 10, 16, 15, 49, 4))
+2782
+55500001
+----x----
+0 0
+2782
+2782
+----x----
+0 3
+2020-10-16 15:49:04
+2020-10-16 15:49:04
+----x----
+8 0
+2774
+2770
+----x----
+8 3
+2020-05-26 17:50:50
+2020-05-18 17:15:26

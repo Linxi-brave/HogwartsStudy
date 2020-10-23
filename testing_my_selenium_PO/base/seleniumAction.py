@@ -60,7 +60,7 @@ class SeleniumAction:
         action.drag_and_drop(ele1,ele2)
         action.perform()
 
-    def actionchain_keys(self,ele,key):
+    def actionchain_keys(self,ele,key,second):
         '''
         使用 ActionChain 模拟键盘操作
         :param ele: 元素输入框
@@ -71,7 +71,7 @@ class SeleniumAction:
         ele.click()
         action = ActionChains(self.driver)
         # action.send_keys(Keys.BACK_SPACE)
-        action.send_keys(key).pause(1) # pause(1) 延时1秒，观看效果
+        action.send_keys(key).pause(second) # pause(1) 延时1秒，观看效果
         action.perform()
 
     def touchaction_scrollbottom(self,ele):

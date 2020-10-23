@@ -1,6 +1,8 @@
+import shelve
+
 import pytest
 from pythoncode.testing_demo import Calculator
-from util.handle_yaml import MakeCalcdata
+from util.handle_yaml import HandleYaml
 import yaml
 
 
@@ -53,7 +55,7 @@ class TestCalc2:
 class TestCalc:
 
     def setup_module(self):
-        MakeCalcdata().writeData()
+        HandleYaml().writeData()
 
     def setup_class(self):
         self.calc = Calculator()
@@ -129,3 +131,13 @@ class TestCalc:
     @pytest.mark.parametrize('a,b,expect',get_datas()[0],ids = get_datas()[1])
     def test_add_step(self,a,b,expect):
         steps(self.calc,a,b,expect,'./steps/add_steps.yaml')
+
+
+    # @pytest.mark.skip
+    def testshelve(self):
+        cookies = '1111111'
+        db = shelve.open("cookies")
+        db.cookies = cookies
+        db.close()
+        mcookies = db.get("cookies")
+        print(mcookies)

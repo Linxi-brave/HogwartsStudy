@@ -1,0 +1,28 @@
+2020-10-22 10:12:04,546 handle_mysql.py--> connsql 20: INFO ----->(2003, "Can't connect to MySQL server on 'mysql-server.testing.svc.cluster.local' ([Errno 8] nodename nor servname provided, or not known)")
+2020-10-22 10:12:33,994 handle_mysql.py--> connsql 20: INFO ----->(2003, "Can't connect to MySQL server on 'mysql-server.testing.svc.cluster.local' ([Errno 8] nodename nor servname provided, or not known)")
+2020-10-22 10:17:02,290 handle_mysql.py--> sql_alldata 20: INFO ----->(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE tu.iAppId = 100001 FROM tbuser AS tu ORDER BY tu.iUserId DESC' at line 1")
+2020-10-22 10:17:32,381 handle_mysql.py--> sql_alldata 20: INFO ----->(1046, 'No database selected')
+2020-10-22 19:37:09,171 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:09,172 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:09,173 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:09,173 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:34,892 seleniumFindelement.py--> get_element 20: INFO ----->xztdbtn
+2020-10-22 19:37:34,893 seleniumFindelement.py--> get_element 20: INFO ----->xpath>/button[@class='el-button el-button--primary']/span
+2020-10-22 19:37:34,893 seleniumFindelement.py--> get_element 20: INFO ----->定位方式xpath定位值/button[@class='el-button el-button--primary']/span
+2020-10-22 19:37:37,954 seleniumFindelement.py--> get_element 20: INFO ----->(<class 'selenium.common.exceptions.NoSuchElementException'>, NoSuchElementException('no such element: Unable to locate element: {"method":"xpath","selector":"/button[@class=\'el-button el-button--primary\']/span"}\n  (Session info: chrome=86.0.4240.80)\n  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Mac OS X 10.15.5 x86_64)', None, None), <traceback object at 0x10bdc9480>)
+2020-10-22 19:37:55,246 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:55,247 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:55,248 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:55,249 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:37:58,475 seleniumFindelement.py--> get_element 20: INFO ----->xztdbtn
+2020-10-22 19:37:58,475 seleniumFindelement.py--> get_element 20: INFO ----->xpath>/button[@class='el-button el-button--primary']/span
+2020-10-22 19:37:58,475 seleniumFindelement.py--> get_element 20: INFO ----->定位方式xpath定位值/button[@class='el-button el-button--primary']/span
+2020-10-22 19:38:01,509 seleniumFindelement.py--> get_element 20: INFO ----->(<class 'selenium.common.exceptions.NoSuchElementException'>, NoSuchElementException('no such element: Unable to locate element: {"method":"xpath","selector":"/button[@class=\'el-button el-button--primary\']/span"}\n  (Session info: chrome=86.0.4240.80)\n  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Mac OS X 10.15.5 x86_64)', None, None), <traceback object at 0x110b7f900>)
+2020-10-22 19:39:34,776 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:39:34,776 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:39:34,778 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:39:34,778 seleniumFindelement.py--> __init__ 20: INFO ----->None
+2020-10-22 19:39:38,071 seleniumFindelement.py--> get_element 20: INFO ----->xztdbtn
+2020-10-22 19:39:38,071 seleniumFindelement.py--> get_element 20: INFO ----->xpath>//button[@class='el-button el-button--primary']/span
+2020-10-22 19:39:38,072 seleniumFindelement.py--> get_element 20: INFO ----->定位方式xpath定位值//button[@class='el-button el-button--primary']/span
+2020-10-22 19:39:49,300 seleniumFindelement.py--> get_element 20: INFO ----->(<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException('', None, None), <traceback object at 0x10aca97c0>)

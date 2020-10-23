@@ -1,0 +1,26 @@
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+Element
+/Users/huangwenjiao/HogwartsStudy/config/Element.ini
+<configparser.ConfigParser object at 0x10c6e6cf8>
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+Element
+/Users/huangwenjiao/HogwartsStudy/config/Element.ini
+<configparser.ConfigParser object at 0x10c7074a8>
+[]
+/Users/huangwenjiao/HogwartsStudy/util
+/Users/huangwenjiao/HogwartsStudy/util/logs/2020-10-21.log
+Element
+yhgllist
+classnames>el-table__row
+(2003, "Can't connect to MySQL server on 'mysql-server.testing.svc.cluster.local' ([Errno 8] nodename nor servname provided, or not known)")
+连接数据库失败
