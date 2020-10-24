@@ -2,116 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1930577c-a520-4bcd-9ce9-018e4cdcfcc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testing/通讯录.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_my_selenium_PO/business/homeweb_baseBussiness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/homeweb_basePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_homewebBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/get_tklogintoken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util_/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/testcase_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/testcase_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/066e5b43-ef6a-4773-956e-a9398ed578e1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/0b0e5dc7-8e97-4965-ae20-cd7c0e77a25c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/0fed8af9-ad97-4ca7-9250-1d8eace0a184-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/1150d45e-b1c4-49ad-ab9d-d3aefe32ed42-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/12bf8f3d-5e48-48b7-828a-b7e730643788-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/17c0c887-1414-475e-be15-136ef1ed1b5c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/1826a451-bce0-4ced-839f-e114df9d8eaa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/196f7ee8-7376-44e2-b721-56eb5cb7ff89-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/1b1e033f-3f78-4f40-829c-3a477eb541a4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/221541c8-9711-4afb-81b7-18f063518f9d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/25e95ff0-25f9-4194-8a13-6952d25b0294-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/289f4e1b-5e4e-4179-b398-1134b20b1179-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/2bcb56f2-d52d-461c-9222-a5cd889973dc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/307cbc16-8ec7-4ef3-b15b-d6af413ac902-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/317088d7-293b-415f-b27a-6129274f080e-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/3cef34a6-49b1-4b72-ac44-34c167bd6f89-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/3f039e6b-d915-4780-9b8e-7dabe41d3de3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/409d6a2c-75b9-493a-b6f7-414ee4f02620-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/46c5038a-9204-4244-801f-a8c958d70038-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/47d2371c-2a08-4f12-86e9-d2d7b15b9c2d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/48770c87-f847-4530-a31f-a043a7417d2d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/4ad042ad-81bf-4e6d-b70d-8f788850c4d7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/54f8ce5c-d44c-4dbd-b7c4-7e7af9b4d241-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/576956e5-7a05-48c0-b56f-d62efc38273a-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/576ae1e0-3381-4634-b44d-b65abbae102c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/5b397236-b470-4676-b220-e630df18ce65-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/677ec0bc-43b1-4cea-8289-4c5820e38fe0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/67ca23a6-0c07-4d02-ba22-9fb2d00a0247-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/68985925-62ad-4eeb-b387-6021195869be-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/7023892e-2917-4d02-b7ad-116d89b10763-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/70cc8a46-644b-4ba4-86d2-8233b1025e6e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/7854bd8e-2efa-45b3-b740-e5a60daf8623-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/818d6991-06c1-4ed7-a6b2-36785e0f7108-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/8218c796-cf04-46df-8784-86563e9e9ae9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/85506b7e-4f7a-4d69-9fb2-88a76cb3bd62-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/87a307cd-eedb-4e4e-9f24-cc3ee4567a7f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/8bb6da07-26d8-4f8d-8aeb-eebb78d3a174-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/8d6d4b70-da40-4179-93cd-69ace9c799ab-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/985757ef-c758-4e3d-a27b-4f1ce04f2c0b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/98d7f9ba-969c-4e09-af96-ccd2df8f8b3b-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/9a9527e2-bd30-40e8-8448-6a9500eede2e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a057ebdd-9f20-4838-8719-2d53374114db-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a4540ef1-f8d3-4230-9d7a-e275eb5774bb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a5a4a529-9347-4fac-9cd0-e20d218955f2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a9981b01-3b45-48a9-8725-32a051ac3870-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/aac5dc87-0fa7-41ef-89e0-d244f002ad3c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/b405ae66-7362-42a6-a7d5-bafb762ac56f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/bd8e9ea7-1efd-448f-9240-6fe556208110-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/bdb2273e-697a-44c6-8480-6121ff633bf7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/c042c49d-ff17-48a8-8708-e658e0a675af-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/ca7d5e58-87c7-4fb6-9906-f1f9d316731b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/cb6dd16c-f930-4bd5-beae-86416645e5a3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/d53e8593-d095-4730-955c-24eab76fa2a4-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/d5f31ed6-d359-4f01-83bb-7f5fe50cbda0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/d91c6218-37f2-477f-847c-5384edafd099-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/dfdb13a0-5d7c-4611-9e80-5acee8261efd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/e7f7d8cb-4717-43c6-a5ac-c26c6202361f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/e9006167-da3d-436d-956b-e38f8fb3fb49-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/eebf26ca-0961-4616-9a57-af2ded41b19e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/fadc0a0d-6fc3-47c4-9cf2-e49a443b08de-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/Config/server.ini" beforeDir="false" afterPath="$PROJECT_DIR$/util_/Config/server.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/Config/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/util_/Config/userconfig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/testdata.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/appium_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/appium_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/base_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/case/jyapitest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/util_/case/jyapitest.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/case/teamkitapitest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/util_/case/teamkitapitest.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/codition_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/codition_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/find_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/find_element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/get_httpres.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_httpres.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/get_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_js.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/get_logincode.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_logincode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/get_seleniumdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_seleniumdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/get_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/get_tklogintoken.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_tklogintoken.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/handle_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_cookie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/handle_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/handle_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_header.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/handle_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/handle_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/handle_json2.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_json2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/handle_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/json_cmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/json_cmp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/opera_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/opera_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/os_cmd.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/os_cmd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/port.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/port.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/read_ini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/selenium_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/selenium_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/to_envlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/to_envlogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util 2/write_user_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/write_user_command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-22.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-23.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +28,7 @@
           <entry key="data" value="2" />
           <entry key="ini" value="14" />
           <entry key="log" value="3" />
+          <entry key="md" value="2" />
           <entry key="py" value="256" />
           <entry key="pyi" value="1" />
           <entry key="yaml" value="19" />
@@ -143,6 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="14" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="256" />
           <entry key="PythonStub" value="1" />
@@ -154,7 +49,7 @@
           <entry key="data" value="2" />
           <entry key="dummy" value="13" />
           <entry key="ini" value="358" />
-          <entry key="py" value="28719" />
+          <entry key="py" value="28734" />
           <entry key="yaml" value="631" />
         </counts>
       </usages-collector>
@@ -162,7 +57,7 @@
         <counts>
           <entry key="Ini" value="358" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="28719" />
+          <entry key="Python" value="28734" />
           <entry key="YAML" value="631" />
         </counts>
       </usages-collector>
@@ -202,12 +97,24 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/testing/testcase_selenium.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+                <state relative-caret-position="304">
+                  <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
-                    <marker date="1603525979557" expanded="true" signature="96:97" ph="..." />
+                    <marker date="1603526426452" expanded="true" signature="96:97" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="34">
+                    <caret line="2" selection-start-line="2" selection-end-line="2" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -412,7 +319,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testdata/calc.yaml" />
         <option value="$PROJECT_DIR$/config/pytest.ini" />
         <option value="$PROJECT_DIR$/handle/makeCalcDatayaml.py" />
         <option value="$PROJECT_DIR$/testing/conftest.py" />
@@ -462,13 +368,14 @@
         <option value="$PROJECT_DIR$/testing_my_selenium_PO/business/homeweb_baseBussiness.py" />
         <option value="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_homewebBase.py" />
         <option value="$PROJECT_DIR$/testdata/testdata.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/testing/testcase_selenium.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="102" />
-    <option name="y" value="52" />
+    <option name="x" value="214" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
   </component>
@@ -650,12 +557,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcasegetcookie - 2020.10.24 at 15h 15m 01s.xml">
-      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcasegetcookie" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 15m 40s.xml">
-      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 21m 11s.xml">
       <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
@@ -680,6 +581,12 @@
     <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 49m 45s.xml">
       <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 53m 44s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 54m 19s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,15 +598,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="52" width="1920" height="977" extended-state="0" />
+    <frame x="214" y="23" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21906267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21906267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68639886" visible="true" weight="0.4338983" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68639886" visible="true" weight="0.4338983" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49753347" weight="0.28926554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -747,24 +654,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_frame_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1603162594737" expanded="true" signature="543:544" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util_/appium_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1168,13 +1057,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.pytest_cache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/testcase_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state relative-caret-position="304">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1603525979557" expanded="true" signature="96:97" ph="..." />
+            <marker date="1603526426452" expanded="true" signature="96:97" ph="..." />
           </folding>
         </state>
       </provider>

@@ -27,7 +27,7 @@ class TestcaseSelenium():
     def teardown(self):
         self.driver.quit()
 
-    @pytest.mark.skip
+    # @pytest.mark.skip
     def testcasegetcookie(self):
 
         # 获取到浏览器的cookies
@@ -72,6 +72,7 @@ class TestcaseSelenium():
 
         # 校验上传成功后界面显示 '通讯录.xlsx'
         asserttext = self.driver.find_element_by_xpath('//div[@class="ww_fileImporter_fileContainer_fileNames"]').text
+
         pytest.assume( asserttext == '通讯录.xlsx')
 
 
