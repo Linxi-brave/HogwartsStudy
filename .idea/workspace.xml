@@ -2,102 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1930577c-a520-4bcd-9ce9-018e4cdcfcc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/addteam.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/testcase_selenium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HogwartsStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HogwartsStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/通讯录.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_my_selenium_PO/business/homeweb_baseBussiness.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/homeweb_basePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_homewebBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/get_tklogintoken.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util_/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Element.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/Element.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/03f5d63e-84fd-4f10-8163-d6db95f32589-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/055d1b8d-6b85-4c69-bade-eb0a2eefaf8e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/0912c307-f1a5-4379-9de3-2d0f10ba0f52-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/0e1d1501-5cfe-4858-80a3-2d605c29c1f5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/0f3c2ff9-e427-4101-9232-71827fdc384a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/119f1b97-a336-42a2-9b08-8b6864f8ff53-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/1439eaf6-e2b2-419a-b62c-7c1e1394affc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/14a582db-f024-4d87-9306-59ee71a62a0c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/1a2cb03a-6e3e-407d-a9b0-10228ff51647-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/1f9e7ad9-99ce-4c9b-8d2d-809b3dfa9cdb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/25c28aed-fe66-4605-837e-da32a1226dca-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/269436cd-2376-4255-89b2-a95a7dc3ae98-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/286ecc40-29c9-4663-9c35-ccde3206d2f8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/2db548ac-1ce6-497c-99ab-59d879e06a9f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/2f113f5f-61cd-4b5d-8785-bcf012d512b4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/2fa20046-ae51-4955-a335-4ab54aaf37e1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/337ed267-8117-4cbc-8fb7-0fe8129cf09c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/3c971204-1b5c-426d-86d2-6d1e942da17d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/3f147500-fe9a-415d-863b-47beb769862e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/3f63b52f-f918-4c08-8c5f-536b7664364f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/4075ed8c-e245-4663-aefb-94c62d251710-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/43f88afa-b0ab-42a2-a070-d96aa25d4f4e-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/4acfb0b8-09da-4b21-a04d-7ccf97c80848-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/4c7b0ef4-8715-4047-99e5-7fccb62dda70-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/4e0632ef-392a-4a48-aee8-520e6fa5bfde-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/52037fc8-33fc-48b5-9c0b-238f28a1e5f4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/52dfbd25-3df0-430e-b9a8-2c1c22c1fdbb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/54bf980e-b623-4e54-933d-84760620936b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/5ae4d524-fccb-4f80-9d19-c1aebe099f5b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/5f834d1c-4014-4614-8165-464db78564e3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/5fd22105-5d40-4c45-9edb-64fcd0db3909-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/623a0a6d-2e9d-4011-ba34-15352066efde-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/65359348-ac58-4104-bff4-068cae76ccd7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/68b35e27-f7a2-4c0c-ac7a-d1608f08d10f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/6c9964aa-fdc9-417f-956a-6dd7d65f33c1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/6cc5da71-a33d-47bb-8251-6d59c172b019-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/752f439f-2d3d-4c6e-8ac2-bac124e35a42-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/76ee55f8-4ab0-45f9-8171-6034a9d7b070-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/7a1b354b-7e32-4b97-b9ac-f5b041b56f71-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/7b2fd137-d1db-4acf-a333-bcc0aa845483-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/807b03fc-6350-4535-9c9a-ae4e0c1727ec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/8444f774-0939-4ed3-b73a-430fcf6ed202-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/86502016-f128-431a-8414-f8c1cd7ebfed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/87374dc2-a651-4d2c-afe7-69a433000fce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/88d131f2-fa07-4e45-8f12-82de6fc70d6a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/89ffa912-9e5c-49f2-b054-dfebe44af8aa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/8d752a0d-0df1-4331-90ae-bf01a695f2e3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/8eb33487-52df-4b92-b71b-af140b745f75-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/997d6e5e-f713-4402-be4b-9ed4b8e8c7ed-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/9a15c5b2-a04d-4589-b443-87144e031e91-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/9d5aa066-c901-4976-9ab0-2cb4f0c82437-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/a78c5c41-e3fe-4979-9c6f-9c6167af0d80-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/a885d900-a463-4592-8aa3-647835434b51-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/aa7d395f-8eba-4555-b179-52a7cffe1113-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/abea2049-6c06-4217-abcb-c7efe8e99ba6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/ac2822f4-350a-4a65-90ef-67636faf24a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/adccb500-82be-442e-a7e8-00be6e4f7c01-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/af68318c-dc0f-4e1f-af25-4263e216ebcc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/b0daeab0-9788-4e95-849c-52424b67c735-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/b12ab607-64f8-47fc-8280-347f46e96e54-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/bc7f8dfb-83d0-43fa-825d-6c7b71c6c664-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/bee55489-788f-4e62-9a97-4e12c42e0a0b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/c15f3d71-96d9-4dd8-a3ec-eac2ab2d879b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/c94bf0b4-a09f-4d17-b514-bd8bedd0815d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/c953ae02-1b29-40c7-abde-0fb90ce72db0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/c9776677-589e-4ecc-809d-c53f89e939dd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/cb8406fb-75d8-4468-b87f-ecb9aadb08bd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/d07a724e-1df8-4a7b-9891-bb299eb83a14-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/d171ae48-4235-4c00-9d24-d975576cdf84-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/d20c2a80-dad0-4a36-8bbe-16463914f087-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/d7976808-a0ab-40e7-a76f-af8be8ae6199-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/e4092cdb-af8e-4008-be85-08a61cb52767-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/eef7a0bf-12b5-440f-a715-3fa0db85c3b7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/f5c2e332-102c-48bb-981a-73bcfa401b40-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/f5f42227-1ad0-4769-9320-293f8260a676-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/f7bb6e41-697f-4d0c-98fe-a7d4f50d6440-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/f830be83-e4b0-4f6e-89ff-754566a25071-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/f9be3f06-03d2-46d0-a423-0445477da1ff-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/allure_report/fa1107b2-f91a-45bf-982b-b51456afa76d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumAction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/testcase_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/testcase_selenium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/basePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/basePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/066e5b43-ef6a-4773-956e-a9398ed578e1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/0b0e5dc7-8e97-4965-ae20-cd7c0e77a25c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/0fed8af9-ad97-4ca7-9250-1d8eace0a184-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/1150d45e-b1c4-49ad-ab9d-d3aefe32ed42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/12bf8f3d-5e48-48b7-828a-b7e730643788-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/17c0c887-1414-475e-be15-136ef1ed1b5c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/1826a451-bce0-4ced-839f-e114df9d8eaa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/196f7ee8-7376-44e2-b721-56eb5cb7ff89-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/1b1e033f-3f78-4f40-829c-3a477eb541a4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/221541c8-9711-4afb-81b7-18f063518f9d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/25e95ff0-25f9-4194-8a13-6952d25b0294-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/289f4e1b-5e4e-4179-b398-1134b20b1179-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/2bcb56f2-d52d-461c-9222-a5cd889973dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/307cbc16-8ec7-4ef3-b15b-d6af413ac902-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/317088d7-293b-415f-b27a-6129274f080e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/3cef34a6-49b1-4b72-ac44-34c167bd6f89-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/3f039e6b-d915-4780-9b8e-7dabe41d3de3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/409d6a2c-75b9-493a-b6f7-414ee4f02620-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/46c5038a-9204-4244-801f-a8c958d70038-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/47d2371c-2a08-4f12-86e9-d2d7b15b9c2d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/48770c87-f847-4530-a31f-a043a7417d2d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/4ad042ad-81bf-4e6d-b70d-8f788850c4d7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/54f8ce5c-d44c-4dbd-b7c4-7e7af9b4d241-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/576956e5-7a05-48c0-b56f-d62efc38273a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/576ae1e0-3381-4634-b44d-b65abbae102c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/5b397236-b470-4676-b220-e630df18ce65-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/677ec0bc-43b1-4cea-8289-4c5820e38fe0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/67ca23a6-0c07-4d02-ba22-9fb2d00a0247-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/68985925-62ad-4eeb-b387-6021195869be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/7023892e-2917-4d02-b7ad-116d89b10763-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/70cc8a46-644b-4ba4-86d2-8233b1025e6e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/7854bd8e-2efa-45b3-b740-e5a60daf8623-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/818d6991-06c1-4ed7-a6b2-36785e0f7108-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/8218c796-cf04-46df-8784-86563e9e9ae9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/85506b7e-4f7a-4d69-9fb2-88a76cb3bd62-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/87a307cd-eedb-4e4e-9f24-cc3ee4567a7f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/8bb6da07-26d8-4f8d-8aeb-eebb78d3a174-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/8d6d4b70-da40-4179-93cd-69ace9c799ab-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/985757ef-c758-4e3d-a27b-4f1ce04f2c0b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/98d7f9ba-969c-4e09-af96-ccd2df8f8b3b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/9a9527e2-bd30-40e8-8448-6a9500eede2e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a057ebdd-9f20-4838-8719-2d53374114db-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a4540ef1-f8d3-4230-9d7a-e275eb5774bb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a5a4a529-9347-4fac-9cd0-e20d218955f2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/a9981b01-3b45-48a9-8725-32a051ac3870-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/aac5dc87-0fa7-41ef-89e0-d244f002ad3c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/b405ae66-7362-42a6-a7d5-bafb762ac56f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/bd8e9ea7-1efd-448f-9240-6fe556208110-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/bdb2273e-697a-44c6-8480-6121ff633bf7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/c042c49d-ff17-48a8-8708-e658e0a675af-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/ca7d5e58-87c7-4fb6-9906-f1f9d316731b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/cb6dd16c-f930-4bd5-beae-86416645e5a3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/d53e8593-d095-4730-955c-24eab76fa2a4-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/d5f31ed6-d359-4f01-83bb-7f5fe50cbda0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/d91c6218-37f2-477f-847c-5384edafd099-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/dfdb13a0-5d7c-4611-9e80-5acee8261efd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/e7f7d8cb-4717-43c6-a5ac-c26c6202361f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/e9006167-da3d-436d-956b-e38f8fb3fb49-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/eebf26ca-0961-4616-9a57-af2ded41b19e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/allure_report/fadc0a0d-6fc3-47c4-9cf2-e49a443b08de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/data" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_mypractice/selenium_test/seleniumbase.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_mypractice/selenium_test/seleniumbase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_mypractice/selenium_test/test_ActionChains.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_mypractice/selenium_test/test_ActionChains.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing_mypractice/testcase_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_mypractice/testcase_calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-21.log" beforeDir="false" afterPath="$PROJECT_DIR$/util/logs/2020-10-21.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/Config/server.ini" beforeDir="false" afterPath="$PROJECT_DIR$/util_/Config/server.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/Config/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/util_/Config/userconfig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/testdata.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/appium_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/appium_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/base_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/case/jyapitest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/util_/case/jyapitest.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/case/teamkitapitest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/util_/case/teamkitapitest.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/codition_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/codition_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/find_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/find_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/get_httpres.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_httpres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/get_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_js.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/get_logincode.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_logincode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/get_seleniumdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_seleniumdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/get_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/get_tklogintoken.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/get_tklogintoken.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/handle_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_cookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/handle_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/handle_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/handle_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/handle_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/handle_json2.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_json2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/handle_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/handle_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/json_cmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/json_cmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/opera_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/opera_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/os_cmd.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/os_cmd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/port.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/port.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/read_ini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/selenium_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/selenium_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/to_envlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/to_envlogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util 2/write_user_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_/write_user_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/logs/2020-10-23.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,18 +135,18 @@
           <entry key="data" value="2" />
           <entry key="ini" value="14" />
           <entry key="log" value="3" />
-          <entry key="py" value="200" />
+          <entry key="py" value="256" />
           <entry key="pyi" value="1" />
-          <entry key="yaml" value="16" />
+          <entry key="yaml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="14" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="200" />
+          <entry key="Python" value="256" />
           <entry key="PythonStub" value="1" />
-          <entry key="YAML" value="16" />
+          <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -140,29 +154,126 @@
           <entry key="data" value="2" />
           <entry key="dummy" value="13" />
           <entry key="ini" value="358" />
-          <entry key="py" value="24940" />
-          <entry key="yaml" value="477" />
+          <entry key="py" value="28719" />
+          <entry key="yaml" value="631" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="358" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="24940" />
-          <entry key="YAML" value="477" />
+          <entry key="Python" value="28719" />
+          <entry key="YAML" value="631" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5689803">
+    <splitter split-orientation="horizontal" split-proportion="0.5084289">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/homeweb_basePage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="321">
+                  <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#1#72#0" expanded="true" />
+                    <marker date="1603447359101" expanded="true" signature="167:172" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_homewebBase.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" selection-start-line="14" selection-end-line="15" />
+                  <folding>
+                    <element signature="e#2#12#0" expanded="true" />
+                    <marker date="1603449039591" expanded="true" signature="264:543" ph="..." />
+                    <marker date="1603449039591" expanded="true" signature="579:580" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/testing/testcase_selenium.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="296">
+                  <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                    <marker date="1603525979557" expanded="true" signature="96:97" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util_/server.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/basePage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="339">
+                  <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#71#0" expanded="true" />
+                    <marker date="1603349347317" expanded="true" signature="159:164" ph="..." />
+                    <marker date="1603349347317" expanded="true" signature="2179:2434" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util_/handle_json.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/read_ini.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-70">
+                  <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="399">
+                  <caret line="111" selection-start-line="111" selection-end-line="111" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                    <marker date="1603435552235" expanded="true" signature="794:1108" ph="..." />
+                    <marker date="1603435552235" expanded="true" signature="2893:3051" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumAction.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="137">
-                  <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                     <marker date="1603345771981" expanded="true" signature="126:279" ph="..." />
@@ -177,182 +288,12 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/testing/testcase_selenium.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="381">
-                  <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                    <marker date="1603424617320" expanded="true" signature="72:73" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/basePage.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="71">
-                  <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-                  <folding>
-                    <element signature="e#0#71#0" expanded="true" />
-                    <marker date="1603349347317" expanded="true" signature="159:164" ph="..." />
-                    <marker date="1603349347317" expanded="true" signature="2179:2434" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#0#63#0" expanded="true" />
-                    <marker date="1603422290845" expanded="true" signature="156:157" ph="..." />
-                    <marker date="1603422290845" expanded="true" signature="156:162" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#0#43#0" expanded="true" />
-                    <marker date="1603422122915" expanded="true" signature="389:390" ph="..." />
-                    <marker date="1603422122915" expanded="true" signature="445:739" ph="..." />
-                    <marker date="1603422122915" expanded="true" signature="1627:1970" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/common/by.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
-                  <caret line="33" column="14" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/seleniumbase.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
-                  <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_frame_window.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                    <marker date="1603162594737" expanded="true" signature="543:544" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/testing_mypractice/testcase_calc.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
-                  <caret line="135" column="23" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                    <marker date="1603421102617" expanded="true" signature="148:153" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/test_data.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
-                    <marker date="1603274994772" expanded="true" signature="107:108" ph="..." />
-                    <marker date="1603274994772" expanded="true" signature="107:112" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_selenium.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="426">
-                  <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
-                  <folding>
-                    <element signature="e#1#23#0" expanded="true" />
-                    <marker date="1603245545318" expanded="true" signature="222:860" ph="..." />
-                    <marker date="1603245545318" expanded="true" signature="876:894" ph="..." />
-                    <marker date="1603245545318" expanded="true" signature="927:933" ph="..." />
-                    <marker date="1603245545318" expanded="true" signature="1156:1218" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_js.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                  <folding>
-                    <marker date="1603162451310" expanded="true" signature="98:103" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/util/handle_yaml.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="16" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#11#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -361,8 +302,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_ActionChains.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+                <state relative-caret-position="217">
+                  <caret line="193" column="25" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                     <marker date="1603424349006" expanded="true" signature="753:758" ph="..." />
@@ -373,10 +314,63 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/webmanagertest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="219">
+                  <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util_/get_logincode.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="516">
+                  <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util_/get_tklogintoken.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="23" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#43#0" expanded="true" />
+                    <marker date="1603442457422" expanded="true" signature="389:390" ph="..." />
+                    <marker date="1603442457422" expanded="true" signature="441:829" ph="..." />
+                    <marker date="1603442457422" expanded="true" signature="1717:2060" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file:///usr/local/Cellar/python@3.8/3.8.3_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/urllib/__init__.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testing/testcase_calc.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="867">
-                  <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                     <marker date="1603274831299" expanded="true" signature="886:888" ph="..." />
@@ -418,12 +412,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testing/test_allure.py" />
-        <option value="$PROJECT_DIR$/testing/test_param.py" />
-        <option value="$PROJECT_DIR$/testing/steps/add_steps.yaml" />
-        <option value="$PROJECT_DIR$/testing/testing_demo.py" />
-        <option value="$PROJECT_DIR$/testing/test_fixture.py" />
-        <option value="$PROJECT_DIR$/testing/testcase_calc1019.py" />
         <option value="$PROJECT_DIR$/testdata/calc.yaml" />
         <option value="$PROJECT_DIR$/config/pytest.ini" />
         <option value="$PROJECT_DIR$/handle/makeCalcDatayaml.py" />
@@ -459,21 +447,30 @@
         <option value="$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/basePage.py" />
         <option value="$PROJECT_DIR$/testdata/addteam.yaml" />
         <option value="$PROJECT_DIR$/config/Element.ini" />
-        <option value="$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py" />
-        <option value="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py" />
-        <option value="$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py" />
-        <option value="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py" />
         <option value="$PROJECT_DIR$/testing_mypractice/selenium_test/test_ActionChains.py" />
         <option value="$PROJECT_DIR$/testing_mypractice/testcase_calc.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py" />
+        <option value="$PROJECT_DIR$/util 2/base_request.py" />
+        <option value="$PROJECT_DIR$/util_/base_request.py" />
+        <option value="$PROJECT_DIR$/util_/handle_init.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/testcase/webmanagertest.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py" />
+        <option value="$PROJECT_DIR$/util_/get_tklogintoken.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/homeweb_basePage.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/business/homeweb_baseBussiness.py" />
+        <option value="$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_homewebBase.py" />
+        <option value="$PROJECT_DIR$/testdata/testdata.yaml" />
         <option value="$PROJECT_DIR$/testing/testcase_selenium.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-26" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="798" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="102" />
+    <option name="y" value="52" />
+    <option name="width" value="1920" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -491,34 +488,24 @@
             <path>
               <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="testing_mypractice" type="462c0819:PsiDirectoryNode" />
+              <item name="testing_my_selenium_PO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="testing_mypractice" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium_test" type="462c0819:PsiDirectoryNode" />
+              <item name="testing_my_selenium_PO" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HogwartsStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HogwartsStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="testing_my_selenium_PO" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,16 +519,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/util" />
+      <recent name="$PROJECT_DIR$/testing" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing" />
       <recent name="$PROJECT_DIR$/util" />
       <recent name="$PROJECT_DIR$/testing-mypractice/selenium_test" />
       <recent name="$PROJECT_DIR$/testing-mypractice/steps" />
       <recent name="$PROJECT_DIR$/testing-mypractice" />
-      <recent name="$PROJECT_DIR$/testing" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/util" />
-      <recent name="$PROJECT_DIR$/testing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -556,28 +543,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for testcase_calc.TestCalc.testshelve">
-    <configuration name="basepageData" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HogwartsStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_my_selenium_PO/sqldata" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for testcase_selenium.TestcaseSelenium.testcaseselenium">
     <configuration name="pytest for test_ActionChains.TestActionChains.test_addteam" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HogwartsStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -623,35 +589,50 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_data.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcasegetcookie" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HogwartsStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_my_selenium_PO/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testing_my_selenium_PO/testcase/test_data.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;testcase_selenium.TestcaseSelenium.testcasegetcookie&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HogwartsStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase_selenium.TestcaseSelenium.testcaseselenium&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest for testcase_001.Testcase.testcaseyhgllistdata" />
-      <item itemvalue="Python.basepageData" />
-      <item itemvalue="Python tests.pytest in test_data.py" />
       <item itemvalue="Python tests.pytest for test_ActionChains.TestActionChains.test_addteam" />
       <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testshelve" />
+      <item itemvalue="Python tests.pytest for testcase_selenium.TestcaseSelenium.testcasegetcookie" />
+      <item itemvalue="Python tests.pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" />
+        <item itemvalue="Python tests.pytest for testcase_selenium.TestcaseSelenium.testcasegetcookie" />
         <item itemvalue="Python tests.pytest for testcase_calc.TestCalc.testshelve" />
         <item itemvalue="Python tests.pytest for testcase_001.Testcase.testcaseyhgllistdata" />
         <item itemvalue="Python tests.pytest for test_ActionChains.TestActionChains.test_addteam" />
-        <item itemvalue="Python tests.pytest in test_data.py" />
-        <item itemvalue="Python.basepageData" />
       </list>
     </recent_temporary>
   </component>
@@ -669,35 +650,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 00m 40s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcasegetcookie - 2020.10.24 at 15h 15m 01s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcasegetcookie" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 02m 49s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 15m 40s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 04m 59s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 21m 11s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 05m 43s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 21m 47s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 07m 28s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 23m 39s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 08m 11s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 44m 06s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 12m 33s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 44m 33s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 13m 05s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 45m 23s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_001_Testcase_testcaseyhgllistdata - 2020.10.23 at 11h 14m 56s.xml">
-      <configuration name="pytest for testcase_001.Testcase.testcaseyhgllistdata" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 48m 04s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_testcase_calc_TestCalc_testshelve - 2020.10.23 at 11h 39m 10s.xml">
-      <configuration name="pytest for testcase_calc.TestCalc.testshelve" configurationId="tests" />
+    <history-entry file="pytest_for_testcase_selenium_TestcaseSelenium_testcaseselenium - 2020.10.24 at 15h 49m 45s.xml">
+      <configuration name="pytest for testcase_selenium.TestcaseSelenium.testcaseselenium" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -710,21 +691,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="798" extended-state="6" />
+    <frame x="102" y="52" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17758985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21906267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68639886" visible="true" weight="0.34560907" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49753347" weight="0.30311614" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68639886" visible="true" weight="0.4338983" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49753347" weight="0.28926554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32768363" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49612403" weight="0.26770538" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49612403" weight="0.46666667" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503876" side_tool="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -754,208 +735,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util_/find_element.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util 2/selenium_base.py">
+    <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_frame_window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="459">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1603098010195" expanded="true" signature="146:151" ph="..." />
-            <marker date="1603098010195" expanded="true" signature="181:186" ph="..." />
-            <marker date="1603098010195" expanded="true" signature="202:204" ph="..." />
-            <marker date="1603098010195" expanded="true" signature="245:250" ph="..." />
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1603162594737" expanded="true" signature="543:544" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/testyaml.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util 2/find_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="281" column="24" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util 2/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/read_ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="281" column="8" selection-start-line="281" selection-start-column="8" selection-end-line="281" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/MysqlAccount.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util 2/write_user_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/numpy/matrixlib/defmatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="1112" selection-start-line="1112" selection-end-line="1112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1199943125/numpy/core/_multiarray_umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="888" column="12" lean-forward="true" selection-start-line="888" selection-start-column="12" selection-end-line="888" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util 2/os_cmd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1069" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="777" selection-start-line="2" selection-start-column="777" selection-end-line="2" selection-end-column="777" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_mypractice/test_allure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="393" selection-start-line="393" selection-end-line="393" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="e#788#799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_mypractice/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="204" column="13" selection-start-line="204" selection-start-column="13" selection-end-line="204" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1199943125/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3644" column="6" selection-start-line="3644" selection-start-column="6" selection-end-line="3644" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/calc.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/testcase_calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1603274831299" expanded="true" signature="886:888" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/addteam.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -966,17 +765,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py">
+    <entry file="file://$PROJECT_DIR$/util_/appium_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/base_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/codition_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/find_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#40#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/get_httpres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/get_js.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/get_seleniumdriver.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/get_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/handle_cookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/write_user_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/to_envlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/send_email.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/selenium_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/read_ini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/port.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/opera_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/handle_json2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/read_ini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_mypractice/testcase_calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="130" column="30" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythoncode/testing_demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/handle_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumAction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1603345771981" expanded="true" signature="126:279" ph="..." />
@@ -985,29 +943,6 @@
             <marker date="1603345771981" expanded="true" signature="274:279" ph="..." />
             <marker date="1603345771981" expanded="true" signature="2859:2949" ph="..." />
             <marker date="1603345771981" expanded="true" signature="3345:3354" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1603421102617" expanded="true" signature="148:153" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1603274994772" expanded="true" signature="107:108" ph="..." />
-            <marker date="1603274994772" expanded="true" signature="107:112" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1036,124 +971,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_frame_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1603162594737" expanded="true" signature="543:544" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/seleniumbase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/Element.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/user_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.8/site-packages/selenium/webdriver/common/by.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1603209516536" expanded="true" signature="61:66" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <marker date="1603422122915" expanded="true" signature="389:390" ph="..." />
-            <marker date="1603422122915" expanded="true" signature="445:739" ph="..." />
-            <marker date="1603422122915" expanded="true" signature="1627:1970" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-            <marker date="1603422290845" expanded="true" signature="156:157" ph="..." />
-            <marker date="1603422290845" expanded="true" signature="156:162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/basePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-            <marker date="1603349347317" expanded="true" signature="159:164" ph="..." />
-            <marker date="1603349347317" expanded="true" signature="2179:2434" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/cookies">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python@3.8/3.8.3_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/shelve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file:///usr/local/Cellar/python@3.8/3.8.3_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/test_ActionChains.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+        <state relative-caret-position="217">
+          <caret line="193" column="25" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1603424349006" expanded="true" signature="753:758" ph="..." />
@@ -1162,23 +986,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing_mypractice/testcase_calc.py">
+    <entry file="file://$PROJECT_DIR$/util_/get_tklogintoken.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="135" column="23" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/get_logincode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/webmanagertest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/homeweb_basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#72#0" expanded="true" />
+            <marker date="1603447359101" expanded="true" signature="167:172" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1603435552235" expanded="true" signature="794:1108" ph="..." />
+            <marker date="1603435552235" expanded="true" signature="2893:3051" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/business/homeweb_baseBussiness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1603448357984" expanded="true" signature="287:288" ph="..." />
+            <marker date="1603448357984" expanded="true" signature="287:293" ph="..." />
+            <marker date="1603448357984" expanded="true" signature="1463:1812" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/os_cmd.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/get_tklogintoken.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/pagehandle/basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+            <marker date="1603349347317" expanded="true" signature="159:164" ph="..." />
+            <marker date="1603349347317" expanded="true" signature="2179:2434" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/business/baseBussiness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+            <marker date="1603435730923" expanded="true" signature="156:157" ph="..." />
+            <marker date="1603435730923" expanded="true" signature="156:162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/calc.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/testdata.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/testcase/testcase_homewebBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="e#2#12#0" expanded="true" />
+            <marker date="1603449039591" expanded="true" signature="264:543" ph="..." />
+            <marker date="1603449039591" expanded="true" signature="579:580" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/sqldata/basepageData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1603431792956" expanded="true" signature="118:123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_mypractice/selenium_test/seleniumbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/testcase_calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1603274831299" expanded="true" signature="886:888" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/handle_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util_/handle_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_my_selenium_PO/base/seleniumFindelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1603442457422" expanded="true" signature="389:390" ph="..." />
+            <marker date="1603442457422" expanded="true" signature="441:829" ph="..." />
+            <marker date="1603442457422" expanded="true" signature="1717:2060" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/testcase_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="296">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1603424617320" expanded="true" signature="72:73" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1603525979557" expanded="true" signature="96:97" ph="..." />
           </folding>
         </state>
       </provider>

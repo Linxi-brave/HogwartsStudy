@@ -26,6 +26,15 @@ def testgetdata(userphone):
     print(userphone[0])
 
 
+def getdatas_addteam():
+    # 获得创建团队的测试数据
+    file = parent_dir + "/testdata/addteam.yaml"
+    with open(file= file,encoding="utf-8") as f:
+        datas = yaml.safe_load(f)
+        data = datas["addteam"]["test"]
+        id = data["addteam"]["id"]
+        # data = app,phone,teamname,company,submit,asserttext
+        return data,id
 
 
 
@@ -51,9 +60,8 @@ class Testcase(SeleniumBase):
         self.bussiness.Bussiness001()
         pytest.assume(self.basepage.gettitle_base() == '团队管理丨TeamKit运营系统')
 
-        #
         # title = self.basepage.gettitle_base()
-        #
+
         # pytest.assume(title == "这个界面")
 
     @allure.story("用户管理列表数据校验")
@@ -80,6 +88,12 @@ class Testcase(SeleniumBase):
             with allure.step("校验用户管理列表数据中的用户昵称，数据序号:" + str(x)):
                 pytest.assume(str(uilistdata[x][2]) == str(sqllistdata[x][2]))
 
+
+    @pytest.mark.parametrize("app,phone,teamname,company,submit,",
+                             getdatas_addteam()[0],ids= getdatas_addteam()[1])
+    def test_addnew(self,app,phone,teamname,company,submit):
+        self.bussiness.add_newteam(appname=app,userphone=phone,teamname=teamname,
+                                   companyname=company,submit=submit)
 
     @pytest.mark.parametrize("userphone,company,app,teamname",
                              getdata_addteam())

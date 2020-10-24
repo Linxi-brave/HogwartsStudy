@@ -12,7 +12,6 @@ class BaseBussiness():
         ''' 获取用户管理列表的数据，并以二维数组形式返回'''
         list = self.basePage.getvalue_yhgllist()
 
-
         slist = []
         for ili in list:
             ili = ili.split(',')

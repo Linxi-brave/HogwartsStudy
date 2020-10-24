@@ -1,0 +1,11 @@
+addactivitydata:
+  testdata:
+    - [ '','','','']
+    - ['title','','','']
+    - 'title',,'context',
+    - 'title','begintime','context','asserttext'
+  caseid:
+    - '全部都不输入，点击创建'
+    - '输入标题，点击创建'
+    - '输入标题内容，点击创建'
+    - '全部输入，点击创建'

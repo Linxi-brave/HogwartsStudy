@@ -1,9 +1,0 @@
-[32mINFO    [0m util.user_log:seleniumFindelement.py:19 None
-[32mINFO    [0m util.user_log:seleniumFindelement.py:20 None
-[32mINFO    [0m util.user_log:seleniumFindelement.py:19 None
-[32mINFO    [0m util.user_log:seleniumFindelement.py:20 None
-[32mINFO    [0m util.user_log:seleniumFindelement.py:28 yhgllist
-[32mINFO    [0m util.user_log:seleniumFindelement.py:29 classnames>el-table__row
-[32mINFO    [0m util.user_log:seleniumFindelement.py:33 定位方式classnames定位值el-table__row
-[32mINFO    [0m util.user_log:seleniumFindelement.py:95 获取到的元素为--->
-[32mINFO    [0m util.user_log:seleniumFindelement.py:96 [<selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-1")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-2")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-3")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-4")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-5")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-6")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-7")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-8")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-9")>, <selenium.webdriver.remote.webelement.WebElement (session="36784c9fd6af2ecca74d01a2f13851e5", element="0.6569535291910413-10")>]

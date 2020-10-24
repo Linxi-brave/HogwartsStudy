@@ -10,13 +10,16 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class FindElement:
 
-    def __init__(self,driver,filename=None,node=None):
+    def __init__(self,driver,file=None,node=None):
         self.driver = driver
         self.log = UserLog()
         self.logger = self.log.get_log()
-        self.filename = parent_dir +'/config/Element.ini'
+        if file == None:
+            self.filename = parent_dir +'/config/Element.ini'
+        else:
+            self.filename = parent_dir + file
         self.rean_ini= ReadIni(filename=self.filename,node=node)
-        self.logger.info(filename)
+        self.logger.info(self.filename)
         self.logger.info(node)
 
     def get_element(self,key):

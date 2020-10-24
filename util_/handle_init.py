@@ -8,8 +8,6 @@ class HandleInit:
 
     def load_ini(self):
         file_path = base_path+"/Config/server.ini"
-        # print(file_path)
-
         cf = configparser.ConfigParser()
         cf.read(file_path,encoding="utf-8-sig")
         return cf

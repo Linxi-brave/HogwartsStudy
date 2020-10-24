@@ -2,8 +2,7 @@ import pytest
 
 from util.handle_mysql import HandleSql
 from util.handle_yaml import HandleYaml
-import os
-import time,datetime
+
 class BasepageData():
 
     def __init__(self):
@@ -20,6 +19,10 @@ class BasepageData():
         data = self.handlesql.sql_alldata(sql)
 
         return data
+
+
+
+
 
 
 

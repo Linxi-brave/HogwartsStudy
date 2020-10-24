@@ -5,9 +5,9 @@ base_path = os.getcwd()
 sys.path.append(base_path)
 import requests
 import json
-from util.handle_cookie import write_cookie
-from util.handle_init import HandleInit
-from log.user_log import UserLog
+from util_.handle_cookie import write_cookie
+from util_.handle_init import HandleInit
+from util.user_log import UserLog
 
 class BaseRequest:
     def send_post(self,url,data,cookie=None,get_cookie=None,header=None):
@@ -16,9 +16,6 @@ class BaseRequest:
         '''
         response = requests.post(url=url,data=data,cookies=cookie,headers=header)
         if get_cookie !=None:
-            '''
-            {"is_cookie":"app"}
-            '''
             cookie_value_jar =  response.cookies
             cookie_value = requests.utils.dict_from_cookiejar(cookie_value_jar)
             write_cookie(cookie_value,get_cookie['is_cookie'])
@@ -99,8 +96,10 @@ class BaseRequest:
                     print(res)
                 return res
         else:
+
             if method == "get":
                 res = self.send_get(url,data,cookie,get_cookie,header)
+
             else :
                 res = self.send_post(url,data,cookie,get_cookie,header)
             return res

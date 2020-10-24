@@ -1,7 +1,7 @@
 import time
 import random
 import requests
-from log.user_log import UserLog
+from util.user_log import UserLog
 class Teamkitlogintoken(object):
 
     def __init__(self):
@@ -30,29 +30,6 @@ class Teamkitlogintoken(object):
 
         return randomStr
 
-    # # 返回json格式,传入字典格式
-    # def __returnJson__(keys, values):
-    #
-    #     mJson = dict(zip(keys, values))
-    #
-    #     mJson = json.dump(mJson)
-    #
-    #     return mJson
-
-    # 传入 手机号、区号、密码，返回可正常登录形式
-    # def userinfo(phone, zoneNum, password):
-    #
-    #     keys = ["phone", "zoneNum", "password"]
-    #
-    #     value = [phone, zoneNum, password]
-    #
-    #     data = dict(zip(keys, value))
-    #
-    #     data = json.dump(data)
-    #
-    #     return data
-
-    # 获取加密之后的hash串（int）
     def __calcSign__(self,salt, hash, time):
         for i in salt:
             hash = ((hash << 5) & 0x7fffffff) + int(ord(i)) + hash
