@@ -37,7 +37,10 @@ class HomewebBasePage():
 
         return self.findelemnt.get_element('addactinput')
 
-    def getele_submitactbtn(self):
+    def geteles_addactbtns(self):
 
-        return self.findelemnt.get_element('submitactbtn')
+        self.findelemnt.get_element('addactbtns')
 
+    def getele_submitbtn(self):
+
+        return self.geteles_addactbtns()[1]

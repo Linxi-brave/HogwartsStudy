@@ -1,4 +1,5 @@
 import os
+import time
 import urllib
 
 import requests
@@ -9,6 +10,9 @@ from testing_my_selenium_PO.pagehandle.homeweb_basePage import HomewebBasePage
 from testing_my_selenium_PO.base.seleniumAction import SeleniumAction
 
 from util.get_tklogintoken import Teamkitlogintoken
+from util.handle_time import timeN
+
+
 class HomewebBaseBussiness():
 
     def __init__(self,driver):
@@ -66,9 +70,10 @@ class HomewebBaseBussiness():
     def addActivity(self,acttitle=None,actbegintime=None,actcontent = None):
 
         # 打开界面
-        self.driver.get()
         # 点击创建活动按钮
-        self.homebasePage.getele_addactbtn().click()
+        # time.sleep(3)
+        #
+        # self.homebasePage.getele_addactbtn().click()
 
         if acttitle != None:
             # 输入活动标题
@@ -76,18 +81,20 @@ class HomewebBaseBussiness():
 
             self.actionEle.sendkeys_ele(addactinput,acttitle)
 
-        elif actbegintime != None:
+        if actbegintime != None:
             # 输入活动时间
             addacttimeinput = self.homebasePage.getele_addactbegintimeinput()
+            actbegintimeStr = timeN(7)
 
-            self.actionEle.sendkeys_ele(addacttimeinput,actbegintime)
+            self.actionEle.sendkeys_ele(addacttimeinput,str(actbegintimeStr))
 
-        elif actcontent != None:
+        if actcontent != None:
             # 输入活动内容
             addcontentinput = self.homebasePage.getele_addactcontentinput()
 
             self.actionEle.sendkeys_ele(addcontentinput,actcontent)
         # 点击提交活动
-        self.homebasePage.getele_submitactbtn()
+
+        self.homebasePage.getele_submitbtn()
 
 

@@ -1,11 +1,11 @@
 import time
 
 from selenium.webdriver import ActionChains, TouchActions
-
+from selenium.webdriver.remote.webdriver import WebDriver
 
 
 class SeleniumAction:
-    def __init__(self,driver):
+    def __init__(self,driver:WebDriver):
         self.driver = driver
 
     def click_ele(self,ele):

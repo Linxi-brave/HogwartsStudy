@@ -46,7 +46,7 @@ class FindElement:
             elif by == 'xpath':
                 locator = (By.XPATH,"value")
 
-                WebDriverWait(self.driver,20,0.5).until(EC.presence_of_all_elements_located(locator))
+                # WebDriverWait(self.driver,20,0.5).until(EC.presence_of_all_elements_located(locator))
 
                 ele = self.driver.find_element_by_xpath(value)
                 return ele

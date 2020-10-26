@@ -5,7 +5,7 @@ import  os
 import pytest
 import yaml
 
-from util_.selenium_base import SeleniumBase
+from testing_my_selenium_PO.base.seleniumBase import SeleniumBase
 from testing_my_selenium_PO.business.homeweb_baseBussiness import HomewebBaseBussiness
 
 parent_dir = os.path.abspath(os.path.join(os.getcwd(),"../.."))
@@ -21,8 +21,7 @@ def get_addActivitydata():
 
 class TestcaseHomeweb(SeleniumBase):
 
-    def __init__(self,driver):
-        self.driver = driver
+    def setup(self):
         self.bussiness = HomewebBaseBussiness(self.driver)
 
 
@@ -30,11 +29,18 @@ class TestcaseHomeweb(SeleniumBase):
         "title,begintime,context,asserttext",get_addActivitydata()[0],
         ids = get_addActivitydata()[1]
     )
+
     def testcaseAddActivity(self,title,begintime,context,asserttext):
 
         # 打开界面
-        self.driver.get("")
+        self.driver.get("https://home.bitkinetic.com/activity/activityRelease")
         #
+        print(title,begintime,context,asserttext)
         self.bussiness.addActivity(acttitle=title,actbegintime=begintime,actcontent=context)
 
         # pytest.assume(asserttext == )
+
+
+    def testselectbtn(self):
+
+        self.driver.get("https://home.bitkinetic.com/powerFeature")

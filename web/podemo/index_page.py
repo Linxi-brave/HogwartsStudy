@@ -1,6 +1,6 @@
 from selenium.webdriver.chrome import webdriver
 
-from testing.podemo.login_page import LoginPage
+from web.podemo.login_page import LoginPage
 
 
 class IndexPage:
