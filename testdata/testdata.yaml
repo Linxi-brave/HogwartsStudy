@@ -6,4 +6,34 @@ addactivitydata:
 #    - '全部都不输入，点击创建'
 #    - '输入标题，点击创建'
 #    - '输入标题内容，点击创建'
-    - '全部输入，点击创建'
+     - '全部输入，点击创建'
+
+creatreportdata:
+  testdata:
+    - ['sumary','plan', None , '']
+
+  caseid:
+    - ' '
+
+
+createannounce:
+
+  testdata:
+    - ['mtitle','mcontent']
+#    - ['','']
+
+
+  caseid:
+    - '正常发布'
+#    - '无法发布'
+createculture:
+  testdata:
+    - ['title','context']
+  caseid:
+    - ''
+
+createculturelink:
+  testdata:
+  - ['https://mp.weixin.qq.com/s/RzcEv0jhRgcAY8PuDv5KfA']
+  caseid:
+  - ''

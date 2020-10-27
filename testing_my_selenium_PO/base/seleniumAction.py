@@ -1,7 +1,10 @@
 import time
 
 from selenium.webdriver import ActionChains, TouchActions
+from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class SeleniumAction:
@@ -10,9 +13,30 @@ class SeleniumAction:
 
     def click_ele(self,ele):
         ele.click()
+        print("true")
+
+    def click_ele_wait(self,locator,ele):
+        '''等待元素出现之后进行点击'''
+        WebDriverWait(self.driver,10,0.5).until(
+            expected_conditions.element_to_be_clickable(locator)
+        )
+        ele.click()
+        print("true")
 
     def sendkeys_ele(self,ele,value):
         ele.send_keys(value)
+
+    def click_ele_try(self,loctor,time_out=10):
+        ''' 封装点击元素，元素可能存在无法点击，这里不断点击元素'''
+
+        # loctor = (By.XPATH,'')
+
+        def wait_for_next(x:WebDriver):
+            try:
+                x.find_element(*loctor).click()
+            except:
+                return False
+        WebDriverWait(self.driver,timeout= time_out).until(wait_for_next)
 
     def actoinchain_click(self,ele):
         '''
@@ -146,6 +170,14 @@ class SeleniumAction:
         '''
         inputele.send_keys(filepath)
 
+    # 获取屏幕的宽高
+    def getsize(self):
+        size = self.driver.get_window_size()
+        width = size["width"]
+        height = size["height"]
+        return width, height
+
+
         #向左滑动
     def swipeleft(self):
         x1 = self.getsize()[0] /10
@@ -163,10 +195,12 @@ class SeleniumAction:
 
     # 向上滑动
     def swipeup(self):
-        y1 = self.getsize()[1] / 10
-        y2 = self.getsize()[1] / 10 * 9
-        x1 = self.getsize()[0] / 2
-        self.driver.swipe(x1, y1, x1, y2, 2000)
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        # y1 = self.getsize()[1] / 10
+        # y2 = self.getsize()[1] / 10 * 9
+        # x1 = self.getsize()[0] / 2
+        #
+        # self.driver.(x1, y1, x1, y2, 2000)
 
     # 向下滑动
     def swipedown(self):

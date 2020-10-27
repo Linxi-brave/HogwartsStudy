@@ -1,4 +1,7 @@
+from time import sleep
+
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -10,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class FindElement:
 
-    def __init__(self,driver,file=None,node=None):
+    def __init__(self,driver:WebDriver,file=None,node=None):
         self.driver = driver
         self.log = UserLog()
         self.logger = self.log.get_log()
@@ -34,6 +37,7 @@ class FindElement:
         value = data.split('>')[1]
 
         self.logger.info('定位方式' + by + '定位值' + value)
+        # self.logger.info(type(value))
         try:
             if by == 'id':
                 locator = (By.ID,"value")
@@ -49,15 +53,18 @@ class FindElement:
                 # WebDriverWait(self.driver,20,0.5).until(EC.presence_of_all_elements_located(locator))
 
                 ele = self.driver.find_element_by_xpath(value)
+                self.logger.info("获取到的元素为--->")
+                self.logger.info(ele)
                 return ele
             elif by == 'css':
-                locator = (By.CSS_SELECTOR,"value")
-                WebDriverWait(self.driver,20,0.5).until(EC.presence_of_all_elements_located(locator))
+                # locator = (By.CSS_SELECTOR,"value")
+                # WebDriverWait(self.driver,20,0.5).until(EC.presence_of_all_elements_located(locator))
                 # WebDriverWait(self.driver,10).until(expected_conditions.invisibility_of_element(
                 #     self.driver.find_element_by_css_selector(value)
                 # ))
                 ele = self.driver.find_element_by_css_selector(value)
-
+                self.logger.info("获取到的元素为--->")
+                self.logger.info(ele)
                 return ele
 
             elif by == 'link_text':
@@ -82,9 +89,12 @@ class FindElement:
                 return ele
 
             elif by == 'xpaths':
-                WebDriverWait(self.driver,10).until(expected_conditions.invisibility_of_element(
-                    self.driver.find_elements_by_xpath(value)
-                ))
+                # locator = (By.XPATH,value)
+                # WebDriverWait(self.driver,10,0.5).until(
+                #     expected_conditions.presence_of_all_elements_located(locator)
+                # )
+                # ele = self.driver.find_elements(locator)
+                sleep(4)
                 ele = self.driver.find_elements_by_xpath(value)
                 self.logger.info("获取到的元素为--->")
                 self.logger.info(ele)
@@ -99,13 +109,14 @@ class FindElement:
                 self.logger.info(eles)
                 return eles
             elif by == 'linktexts':
-                WebDriverWait(self.driver,10).until(expected_conditions.invisibility_of_element(
+                WebDriverWait(self.driver,20,0.5).until(expected_conditions.invisibility_of_element(
                     self.driver.find_elements_by_link_text(value)
                 ))
                 ele = self.driver.find_elements_by_link_text(value)
                 return ele
 
         except :
+            print("11112222")
             self.logger.info(self.log.iferrorinfo())
 
     def get_childelement(self,elements,key):

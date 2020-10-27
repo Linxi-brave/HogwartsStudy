@@ -584,6 +584,7 @@ class FirstCase(unittest.TestCase):
 
     def test_006_teamannou(self):
         self.clickannou()
+
         #管理员创建公告
     def test_006_001_createamnou(self):
 

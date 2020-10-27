@@ -4,8 +4,11 @@ import urllib
 
 import requests
 import zxing
+from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.webdriver.support.wait import WebDriverWait
 
-from testing_my_selenium_PO.pagehandle.homeweb_basePage import HomewebBasePage
+from testing_my_selenium_PO.pagehandle.homeweb_activityPage import HomewebBasePage
 
 from testing_my_selenium_PO.base.seleniumAction import SeleniumAction
 
@@ -15,7 +18,7 @@ from util.handle_time import timeN
 
 class HomewebBaseBussiness():
 
-    def __init__(self,driver):
+    def __init__(self,driver:WebDriver):
         self.driver =driver
         self.actionEle = SeleniumAction(self.driver)
         self.homebasePage = HomewebBasePage(self.driver)
@@ -69,12 +72,6 @@ class HomewebBaseBussiness():
 
     def addActivity(self,acttitle=None,actbegintime=None,actcontent = None):
 
-        # 打开界面
-        # 点击创建活动按钮
-        # time.sleep(3)
-        #
-        # self.homebasePage.getele_addactbtn().click()
-
         if acttitle != None:
             # 输入活动标题
             addactinput = self.homebasePage.getele_addacttitleinput()
@@ -87,14 +84,47 @@ class HomewebBaseBussiness():
             actbegintimeStr = timeN(7)
 
             self.actionEle.sendkeys_ele(addacttimeinput,str(actbegintimeStr))
+            btns = self.driver.find_elements_by_xpath("//div[@class='el-form-item bottomBtn']//button")
+            time.sleep(1)
+            btns[1].click()
 
         if actcontent != None:
+            self.actionEle.swipeup()
             # 输入活动内容
             addcontentinput = self.homebasePage.getele_addactcontentinput()
 
             self.actionEle.sendkeys_ele(addcontentinput,actcontent)
-        # 点击提交活动
 
-        self.homebasePage.getele_submitbtn()
+
+        locator = (By.CSS_SELECTOR, ".bottomBtn>div>button:nth-child(2)>span")
+
+        def wait_for_next(x: WebDriver):
+            # 反复点击【添加成员】，直到点击通过
+            try:
+                x.find_element(*locator).click()
+                # return x.find_element(By.ID, "username")
+            except Exception as e:
+                print(e)
+                return False
+
+        WebDriverWait(self.driver, 10).until(wait_for_next)
+
+        # # 点击提交活动
+        #
+        # ele = self.driver.find_element_by_css_selector(".bottomBtn>div>button:nth-child(2)>span")
+        # print(ele)
+        # ele.click()
+        #
+        # ele = self.driver.find_element_by_xpath('//*[@id="activityRelease"]/section/article/form/div[13]/div/button[2]')
+        #
+        # print(ele)
+        #
+        # ele.click()
+        # self.homebasePage.getele_submitbycss().click()
+
+        # self.actionEle.actionchain_doubleclick(self.homebasePage.getele_submitbtn())
+
+        # self.actionEle.click_ele(self.homebasePage.getele_submitbtn())
+
 
 
