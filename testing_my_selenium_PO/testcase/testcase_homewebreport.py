@@ -1,5 +1,6 @@
 import os
 
+import allure
 import pytest
 import yaml
 
@@ -22,7 +23,7 @@ def get_addreportdata():
 
         return data,caseid
 
-
+@allure.feature('测试报告模块')
 class TestcaseHomewebReport(SeleniumBase):
 
     def setup(self):
@@ -30,12 +31,10 @@ class TestcaseHomewebReport(SeleniumBase):
         self.business = HomewebReportBussiness(self.driver)
 
 
-
-
-
     # @pytest.mark.skip
     @pytest.mark.parametrize('sumary,plan,sale,content',get_addreportdata()[0],
                              ids = get_addreportdata()[1])
+    @allure.story('验证发布报告')
     def testcase_createreport(self,sumary,plan,sale,content):
 
         self.business.creatReport(sumary,plan,sale,content)

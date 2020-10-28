@@ -70,15 +70,15 @@ class HomewebBaseBussiness():
         qrcodelogin(query,'status')
         qrcodelogin(query,'login')
 
-    def addActivity(self,acttitle=None,actbegintime=None,actcontent = None):
+    def addActivity(self,acttitle='',actbegintime='',actcontent = ''):
 
-        if acttitle != None:
+        if acttitle != '':
             # 输入活动标题
             addactinput = self.homebasePage.getele_addacttitleinput()
 
             self.actionEle.sendkeys_ele(addactinput,acttitle)
 
-        if actbegintime != None:
+        if actbegintime != '':
             # 输入活动时间
             addacttimeinput = self.homebasePage.getele_addactbegintimeinput()
             actbegintimeStr = timeN(7)
@@ -88,43 +88,20 @@ class HomewebBaseBussiness():
             time.sleep(1)
             btns[1].click()
 
-        if actcontent != None:
+        if actcontent != '':
             self.actionEle.swipeup()
             # 输入活动内容
             addcontentinput = self.homebasePage.getele_addactcontentinput()
 
             self.actionEle.sendkeys_ele(addcontentinput,actcontent)
 
+        self.driver.find_element(By.XPATH,'//span[text()="立即发布"]').click()
+        print('true')
 
-        locator = (By.CSS_SELECTOR, ".bottomBtn>div>button:nth-child(2)>span")
+        # $x('//div[@class="el-form-item__content"]//span[text()="立即发布"]')
+        self.driver.find_element(By.XPATH,'//div[@class="el-form-item__content"]//span[text()="立即发布"]').click()
+        self.actionEle.click_ele(self.homebasePage.getele_submitbycss())
 
-        def wait_for_next(x: WebDriver):
-            # 反复点击【添加成员】，直到点击通过
-            try:
-                x.find_element(*locator).click()
-                # return x.find_element(By.ID, "username")
-            except Exception as e:
-                print(e)
-                return False
-
-        WebDriverWait(self.driver, 10).until(wait_for_next)
-
-        # # 点击提交活动
-        #
-        # ele = self.driver.find_element_by_css_selector(".bottomBtn>div>button:nth-child(2)>span")
-        # print(ele)
-        # ele.click()
-        #
-        # ele = self.driver.find_element_by_xpath('//*[@id="activityRelease"]/section/article/form/div[13]/div/button[2]')
-        #
-        # print(ele)
-        #
-        # ele.click()
-        # self.homebasePage.getele_submitbycss().click()
-
-        # self.actionEle.actionchain_doubleclick(self.homebasePage.getele_submitbtn())
-
-        # self.actionEle.click_ele(self.homebasePage.getele_submitbtn())
-
+        print("true")
 
 

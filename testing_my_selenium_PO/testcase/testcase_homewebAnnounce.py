@@ -5,7 +5,8 @@ import yaml
 import allure
 from testing_my_selenium_PO.base.seleniumBase import SeleniumBase
 from testing_my_selenium_PO.business.homeweb_announceBussiness import HomewebAnnounceBussiness
-from util.handle_time import timenow
+from util.handle_time import timenow, timeday
+import allure
 
 parent_dir = os.path.abspath(os.path.join(os.getcwd(),"../.."))
 
@@ -23,7 +24,7 @@ def get_announcedata():
 
         return data,caseid
 
-
+@allure.feature('测试公告模块')
 class TestcaseHomewebAnnounce(SeleniumBase):
 
     def setup(self):
@@ -34,7 +35,8 @@ class TestcaseHomewebAnnounce(SeleniumBase):
     @pytest.mark.parametrize('mtitle,mcontent',
                              get_announcedata()[0],ids = get_announcedata()[1]
                              )
-    # @pytest.mark.skip
+    # @pytest.mark.
+    @allure.story('测试成功发布公告')
     def testcase_createannounce(self,mtitle,mcontent):
 
         # self.driver.get('https://home.bitkinetic.com/announcement')
@@ -48,15 +50,16 @@ class TestcaseHomewebAnnounce(SeleniumBase):
 
 
 
-    @allure.title("验证列表数据正确性")
-
+    @allure.story("验证公告列表数据正确性")
     def testcase_list(self):
 
         self.driver.get('https://home.bitkinetic.com/announcement')
 
         listdata = self.anbussiness.get_listdata()
 
-        pytest.assume(str(timenow()) in listdata["context"][0])
+        # pytest.assume(str(timeday()) in str(listdata["context"][0]))
+
+        pytest.assume('2020-10-26' in str(listdata["context"][0]))
 
 
 

@@ -12,3 +12,10 @@ def timenow():
 
     return str(time)
 
+def timeday():
+
+    time = datetime.datetime.now().strftime("%Y-%m-%d")
+
+    return str(time)
+
+

@@ -1,15 +1,23 @@
+import os
 import time
 
 from selenium.webdriver import ActionChains, TouchActions
-from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-
+from util.handle_time import timenow
+parent_dir = os.path.abspath(os.path.join(os.getcwd(),'../..'))
 
 class SeleniumAction:
     def __init__(self,driver:WebDriver):
         self.driver = driver
+
+    def save_screenshot(self):
+        '''截图'''
+        time = str(timenow())
+
+        filename = parent_dir + '/screenshot/'+ time +'.png'
+        self.driver.save_screenshot(filename)
 
     def click_ele(self,ele):
         ele.click()
@@ -94,7 +102,6 @@ class SeleniumAction:
         '''
         ele.click()
         action = ActionChains(self.driver)
-        # action.send_keys(Keys.BACK_SPACE)
         action.send_keys(key).pause(second) # pause(1) 延时1秒，观看效果
         action.perform()
 
@@ -196,11 +203,6 @@ class SeleniumAction:
     # 向上滑动
     def swipeup(self):
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        # y1 = self.getsize()[1] / 10
-        # y2 = self.getsize()[1] / 10 * 9
-        # x1 = self.getsize()[0] / 2
-        #
-        # self.driver.(x1, y1, x1, y2, 2000)
 
     # 向下滑动
     def swipedown(self):

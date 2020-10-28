@@ -42,7 +42,7 @@ def getdatas_addteam():
 class Testcase(SeleniumBase):
 
     def setup(self):
-        self.bussiness = BaseBussiness(self.driver)
+        self.business = BaseBussiness(self.driver)
         self.basepage = BasePage(self.driver)
         self.sqldata = BasepageData()
 

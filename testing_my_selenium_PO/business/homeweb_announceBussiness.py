@@ -40,27 +40,24 @@ class HomewebAnnounceBussiness():
                 self.anpage.getelement_aninput(),content + time
             )
 
-        # loctor = (By.XPATH,"//button[@class='el-button handlebtn publish el-button--primary']/span")
-        #
-        # self.action.click_ele_wait(loctor,self.anpage.getelement_createbtn())
-        #
+        self.driver.find_elements(By.XPATH, '//div[@class="el-form-item__content"]/button[@type="button"]')[1].click().pause
+        # self.driver.find_element(By.CSS_SELECTOR, ".btn2 > span").click()
 
-        btn = self.driver.find_element_by_xpath("//form//button[@class='el-button handlebtn publish el-button--primary']/span")
-        btn.click()
-
-        sleep(2)
-        self.action.click_ele(self.anpage.getelement_createbtn())
-        print("1111")
-        # self.action.actionchain_movetoelement(
-        #     self.anpage.getelement_createbtn()
-        # )
+        # locator = (By.CSS_SELECTOR, ".btn2 > span")
+        # def wait_for_next(x: WebDriver):
+        #     try:
+        #         x.find_element(*locator).click()
+        #     except Exception as e:
+        #         print(e)
+        #         return False
         #
-        # self.action.actionchain_doubleclick(
-        #     self.anpage.getelement_createbtn()
-        # )
-
-        # self.driver.find_element(loctor).click()
-        # self.action.click_ele_try(loctor)
+        # WebDriverWait(self.driver, 10).until(wait_for_next)
+        # btn = self.driver.find_element_by_xpath("//form//button[@class='el-button handlebtn publish el-button--primary']/span")
+        # btn.click()
+        #
+        # sleep(2)
+        # self.action.click_ele(self.anpage.getelement_createbtn())
+        #
 
 
     def get_listdata(self):

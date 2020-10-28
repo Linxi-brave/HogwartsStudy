@@ -1,5 +1,6 @@
 import os
 
+import allure
 import pytest
 import yaml
 
@@ -34,7 +35,7 @@ def get_culturelink():
 
         return data,caseid
 
-
+@allure.feature('测试发现模块')
 class TestcaseHomewebCulture(SeleniumBase):
 
     def setup(self):
@@ -45,13 +46,16 @@ class TestcaseHomewebCulture(SeleniumBase):
     @pytest.mark.parametrize('title,context',get_culturedata()[0],
                              ids = get_culturedata()[1]
                              )
+    @allure.story('测试成功发布原创文章')
     def testcase_createculture(self,title,context):
         self.driver.get('https://home.bitkinetic.com/find/publishfind')
 
         self.bussiness.create_culture(titleinput= title,contextinput= context)
 
+
     @pytest.mark.parametrize('link',get_culturelink()[0],
                              ids = get_culturelink()[1])
+    @allure.story('测试成功发布外链文章')
     def testcase_createlinkculture(self,link):
         self.driver.get('https://home.bitkinetic.com/find/publishfind')
         self.bussiness.create_linkculture(linkinput= link )
